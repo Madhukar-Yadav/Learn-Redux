@@ -1,0 +1,392 @@
+{
+    "Solutions": {
+        "@PriceList": "4/1/2018 12:00:00 AM",
+        "@TreeView": "1",
+        "@ETSEVersion": "18.8.0",
+        "@Country": "United States",
+        "@Currency": "UD",
+        "Solution": {
+            "@ID": "1",
+            "@Customizable": "1",
+            "@FirstRole": "Mailbox (log and database isolated) server - Site 1 - No DAG",
+            "SolutionsArchitecture": "Server solution with selected platforms",
+            "ResoningText": "The configured server roles are based on the best-fit server platforms selected for each site.",
+            "SolProfile": {
+                "@ID": "1",
+                "#text": "Recommended"
+            },
+            "NoOfSolutionWithAsterisk": "1",
+            "SolPrice": "145,020 *",
+            "TotalPrice": "145,020",
+            "Roles": {
+                "@FirstRole": "Mailbox (log and database isolated) server - Site 1 - No DAG",
+                "Role": [
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "Site 1",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": [
+                            {
+                                "VolumeName": "System / Page File (SPF)",
+                                "Disk": "300GB 12G SAS 15K 2.5in SC DS HDD",
+                                "RAIDLevel": "RAID10",
+                                "DiskQty": "2",
+                                "OnlineSpare": "0"
+                            },
+                            {
+                                "VolumeName": "Transaction Logs (TL)",
+                                "Disk": "300GB 12G SAS 15K 2.5in SC DS HDD",
+                                "RAIDLevel": "RAID10",
+                                "DiskQty": "2",
+                                "OnlineSpare": "0"
+                            },
+                            {
+                                "VolumeName": "Databases (DB)",
+                                "Disk": "300GB 12G SAS 15K 2.5in SC DS HDD",
+                                "RAIDLevel": "RAID10",
+                                "DiskQty": "2",
+                                "OnlineSpare": "0"
+                            },
+                            {
+                                "VolumeName": "Restore LUN (RL)",
+                                "Disk": "300GB 12G SAS 15K 2.5in SC DS HDD",
+                                "RAIDLevel": "RAID0",
+                                "DiskQty": "1",
+                                "OnlineSpare": "0"
+                            }
+                        ],
+                        "RoleName": "Mailbox (log and database isolated) server - Site 1 - No DAG",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "5",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "ProLiant ML350 Gen9"
+                        },
+                        "Processor": "1 x ProLiant ML350 Gen9 1P",
+                        "ProcessorDetails": "Intel Deca  Core\n                                      1.8GHz / 25MB Cache",
+                        "Memory": "16 GB  RAM",
+                        "NSSShared": [],
+                        "Storage": "512 GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (4 - Ports)",
+                            "NIC": "1 x HP 1Gb Ethernet 4-port 331i Adapter"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "Site 1",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": [
+                            {
+                                "VolumeName": "System / Page File - DAG 1 (SPF)",
+                                "Disk": "300GB 12G SAS 15K 2.5in SC DS HDD",
+                                "RAIDLevel": "RAID10",
+                                "DiskQty": "4",
+                                "OnlineSpare": "0"
+                            },
+                            {
+                                "VolumeName": "Transaction Logs/Databases - DAG 1 (TLDB)",
+                                "Disk": "300GB 12G SAS 15K 2.5in SC DS HDD",
+                                "RAIDLevel": "RAID10",
+                                "DiskQty": "4",
+                                "OnlineSpare": "0"
+                            },
+                            {
+                                "VolumeName": "Restore LUN - DAG 1 (RL)",
+                                "Disk": "300GB 12G SAS 15K 2.5in SC DS HDD",
+                                "RAIDLevel": "RAID0",
+                                "DiskQty": "2",
+                                "OnlineSpare": "0"
+                            }
+                        ],
+                        "RoleName": "Mailbox (log and database combined) server - Site 1 - DAG 1",
+                        "ServerName": {
+                            "@Qty": "2",
+                            "@Height": "5",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "ProLiant ML350 Gen9"
+                        },
+                        "Processor": "2 x ProLiant ML350 Gen9 1P",
+                        "ProcessorDetails": "Intel Deca  Core\n                                      1.8GHz / 25MB Cache",
+                        "Memory": "16 GB  RAM",
+                        "NSSShared": [],
+                        "Storage": "437 GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (4 - Ports)",
+                            "NIC": "1 x HP 1Gb Ethernet 4-port 331i Adapter"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "Site 1",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": {
+                            "TableData": [
+                                {
+                                    "VolumeName": "System / Page File - DAG 2 (SPF)",
+                                    "Disk": "300GB 12G SAS 15K 2.5in SC DS HDD",
+                                    "RAIDLevel": "RAID10",
+                                    "DiskQty": "4",
+                                    "OnlineSpare": "0"
+                                },
+                                {
+                                    "VolumeName": "Transaction Logs/Databases - DAG 2 (TLDB)",
+                                    "Disk": "300GB 12G SAS 15K 2.5in SC DS HDD",
+                                    "RAIDLevel": "RAID10",
+                                    "DiskQty": "4",
+                                    "OnlineSpare": "0"
+                                },
+                                {
+                                    "VolumeName": "Restore LUN - DAG 2",
+                                    "Disk": "300GB 12G SAS 15K 3.5 SC HDD",
+                                    "RaidLevel": "RAID0",
+                                    "DiskQty": "1",
+                                    "ArrayType": "D3600"
+                                },
+                                {
+                                    "VolumeName": "Restore LUN - DAG 2",
+                                    "Disk": "300GB 12G SAS 15K 3.5 SC HDD",
+                                    "RaidLevel": "RAID0",
+                                    "DiskQty": "1",
+                                    "ArrayType": "D3600"
+                                }
+                            ],
+                            "StorageBoxes": "2"
+                        },
+                        "RoleName": "Mailbox (log and database combined) server - Site 1 - DAG 2",
+                        "ServerName": {
+                            "@Qty": "2",
+                            "@Height": "5",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "ProLiant ML350 Gen9"
+                        },
+                        "Processor": "2 x ProLiant ML350 Gen9 1P",
+                        "ProcessorDetails": "Intel Deca  Core\n                                      1.8GHz / 25MB Cache",
+                        "Memory": "16 GB  RAM",
+                        "NSSShared": [],
+                        "Storage": "157 GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (4 - Ports)",
+                            "NIC": "1 x HP 1Gb Ethernet 4-port 331i Adapter"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "Site 1",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "DAS": "true",
+                            "PerfData": "false",
+                            "StorageBoxes": "2",
+                            "TableData": [
+                                {
+                                    "VolumeName": "Transaction Logs/Databases - DAG 3",
+                                    "Disk": "300GB 15K 12G 3.5in CC ENT SAS HDD",
+                                    "RaidLevel": "RAID1",
+                                    "DiskQty": "2",
+                                    "ArrayType": "D6000"
+                                },
+                                {
+                                    "VolumeName": "Restore LUN - DAG 3",
+                                    "Disk": "300GB 15K 12G 3.5in CC ENT SAS HDD",
+                                    "RaidLevel": "RAID0",
+                                    "DiskQty": "1",
+                                    "ArrayType": "D6000"
+                                },
+                                {
+                                    "VolumeName": "Transaction Logs/Databases - DAG 3",
+                                    "Disk": "300GB 15K 12G 3.5in CC ENT SAS HDD",
+                                    "RaidLevel": "RAID1",
+                                    "DiskQty": "2",
+                                    "ArrayType": "D6000"
+                                },
+                                {
+                                    "VolumeName": "Restore LUN - DAG 3",
+                                    "Disk": "300GB 15K 12G 3.5in CC ENT SAS HDD",
+                                    "RaidLevel": "RAID0",
+                                    "DiskQty": "1",
+                                    "ArrayType": "D6000"
+                                }
+                            ]
+                        },
+                        "DAS": {
+                            "TableData": {
+                                "VolumeName": "System / Page File - DAG 3 (SPF)",
+                                "Disk": "300GB 12G SAS 15K 2.5in SC DS HDD",
+                                "RAIDLevel": "RAID10",
+                                "DiskQty": "4",
+                                "OnlineSpare": "0"
+                            }
+                        },
+                        "RoleName": "Mailbox (log and database combined) server - Site 1 - DAG 3",
+                        "ServerName": {
+                            "@Qty": "2",
+                            "@Height": "5",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "ProLiant ML350 Gen9"
+                        },
+                        "Processor": "2 x ProLiant ML350 Gen9 1P",
+                        "ProcessorDetails": "Intel Deca  Core\n                                      1.8GHz / 25MB Cache",
+                        "Memory": "16 GB  RAM",
+                        "NSSShared": [],
+                        "Storage": "157 GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (4 - Ports)",
+                            "NIC": "1 x HP 1Gb Ethernet 4-port 331i Adapter"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "Site 1",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false",
+                            "StorageBoxes": "1",
+                            "TableData": [
+                                {
+                                    "VolumeName": "Transaction Logs/Databases - DAG 4",
+                                    "Disk": "300GB 12G 15K SAS 3.5in LFF CON ENT HDD",
+                                    "RaidLevel": "RAID1",
+                                    "DiskQty": "4",
+                                    "ArrayType": "MSA2040 iSCSI"
+                                },
+                                {
+                                    "VolumeName": "Restore LUN - DAG 4",
+                                    "Disk": "300GB 12G 15K SAS 3.5in LFF CON ENT HDD",
+                                    "RaidLevel": "RAID1",
+                                    "DiskQty": "4",
+                                    "ArrayType": "MSA2040 iSCSI"
+                                }
+                            ]
+                        },
+                        "DAS": {
+                            "TableData": {
+                                "VolumeName": "System / Page File - DAG 4 (SPF)",
+                                "Disk": "300GB 12G SAS 15K 2.5in SC DS HDD",
+                                "RAIDLevel": "RAID10",
+                                "DiskQty": "4",
+                                "OnlineSpare": "0"
+                            }
+                        },
+                        "RoleName": "Mailbox (log and database combined) server - Site 1 - DAG 4",
+                        "ServerName": {
+                            "@Qty": "2",
+                            "@Height": "5",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "ProLiant ML350 Gen9"
+                        },
+                        "Processor": "2 x ProLiant ML350 Gen9 1P",
+                        "ProcessorDetails": "Intel Deca  Core\n                                      1.8GHz / 25MB Cache",
+                        "Memory": "16 GB  RAM",
+                        "NSSShared": [],
+                        "Storage": "157 GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (4 - Ports)",
+                            "NIC": "1 x HP 1Gb Ethernet 4-port 331i Adapter"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "Site 1",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false",
+                            "StorageBoxes": "1",
+                            "TableData": [
+                                {
+                                    "VolumeName": "Transaction Logs/Databases - DAG 5",
+                                    "Disk": "146GB 6G SAS 15K 2.5in DP ENT HDD",
+                                    "RaidLevel": "RAID1",
+                                    "DiskQty": "4",
+                                    "ArrayType": "MSA1040 FC"
+                                },
+                                {
+                                    "VolumeName": "Restore LUN - DAG 5",
+                                    "Disk": "146GB 6G SAS 15K 2.5in DP ENT HDD",
+                                    "RaidLevel": "RAID1",
+                                    "DiskQty": "4",
+                                    "ArrayType": "MSA1040 FC"
+                                }
+                            ]
+                        },
+                        "DAS": {
+                            "TableData": {
+                                "VolumeName": "System / Page File - DAG 5 (SPF)",
+                                "Disk": "300GB 12G SAS 15K 2.5in SC DS HDD",
+                                "RAIDLevel": "RAID10",
+                                "DiskQty": "4",
+                                "OnlineSpare": "0"
+                            }
+                        },
+                        "RoleName": "Mailbox (log and database combined) server - Site 1 - DAG 5",
+                        "ServerName": {
+                            "@Qty": "2",
+                            "@Height": "5",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "ProLiant ML350 Gen9"
+                        },
+                        "Processor": "2 x ProLiant ML350 Gen9 1P",
+                        "ProcessorDetails": "Intel Deca  Core\n                                      1.8GHz / 25MB Cache",
+                        "Memory": "16 GB  RAM",
+                        "NSSShared": [],
+                        "Storage": "157 GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (4 - Ports)",
+                            "NIC": "1 x HP 1Gb Ethernet 4-port 331i Adapter"
+                        }
+                    }
+                ]
+            }
+        }
+   }
+}

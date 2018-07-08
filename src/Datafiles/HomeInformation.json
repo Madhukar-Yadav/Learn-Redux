@@ -1,0 +1,461 @@
+{
+  "Sizers": {
+    "SizerCaption": "HPE sizing tool for SAP Business Suite powered by HANA",
+    "Sizer": {
+      "-name": "SAP HANA Sizing Tool",
+      "Version": "18.8",
+      "QAVersion": "18.8.0",
+      "SizerYear": "2000",
+      "ShowSizeSavedWorkloadButton": "False",
+      "ContactUs": { "Para1": "Please contact us if you have any comments, questions or if you would like us to design a custom enterprise configuration capable of either handling millions of transactions per day, or hosting databases larger than 500 GB." },
+      "About": { "Para1": "HPE has created this unique sizer/configurator to assist in deploying SAP products on HPE Servers and is a quick and easy way to size SAP based on user requirements." },
+      "Index": {
+        "Links": {
+          "Link": { "Text": "Help" }
+        },
+        "Sections": {
+          "Section": [
+            {
+              "-Title": "Load Solutions/Workload",
+              "Text": "Open your offline solutions/workload."
+            },
+            {
+              "-Title": "   Let us build one for you",
+              "Text": "Should you be planning for very large transaction volumes please contact us for assistance."
+            },
+            {
+              "-Title": "   Check for a Newer Version",
+              "Text": "You can verify that the version of HPE SAP Sizer that you have downloaded is the latest available and upgrade the version if desired."
+            },
+            {
+              "-Title": "   View Preconfigured Systems",
+              "Text": "View Proposal Sizing Examples for 50, 100, 500 etc Users."
+            },
+            {
+              "-Title": "   Build your own solutions",
+              "Text": "Use our tool to build a solution based on your specific SAP workload requirements."
+            },
+            {
+              "-Title": "   Reference Architecture",
+              "Text": "HPE has produced SAP business suite collateral (white papers, technical articles etc.) that provide information on reference configurations."
+            },
+            {
+              "-Title": "   Additional Information",
+              "Text": "HPE has produced SAP business suite collateral (white papers, technical articles etc.) that provide additional information on how to leverage the advanced features of the HPE Server family in configuring SAP business solutions."
+            },
+            { "Text": "Customer Information" },
+            { "Text": "Company Name" },
+            { "Text": "Project Name" },
+            { "Text": "Project Contact Person e-Mail" },
+            { "Text": "SAP Lookup" },
+            { "Text": "Use SAPS Lookup table to view the SAP value of a specific server model." }
+          ]
+        }
+      },
+      "EnvironmentDetails": {
+        "Sections": {
+          "Section": {
+            "-Title": "SAP ECC (R/3) Modules",
+            "Text": [
+              "Database Size",
+              "Uncompressed Database-Size",
+              "GB",
+              "Yearly Growth",
+              "Number of Years",
+              "Percentage of Growth",
+              "Disaster Tolerance",
+              "Would you like to configure with Disaster Tolerance (DT) ?",
+              "NOTE: Disaster Tolerance will configure the Scale - Out HANA product."
+            ]
+          }
+        }
+      },
+      "OtherEnvironmentDetails": {
+        "Sections": {
+          "Text": [
+            "System Landscape Besides Production Environment",
+            "Test/Quality Assurance System",
+            "Development System",
+            "SandBox System",
+            "Percentage of Database Size compared to Production Database",
+            "NOTE: This option configures a virtualized SAP HANA (HP Proliant DL980 G7 server with 1 TB memory).",
+            "Database Stacking Options",
+            "Test/QA",
+            "Development",
+            "SandBox",
+            "Dedicated or Combined",
+            "Virtual Hana Selection",
+            "Virtual HANA"
+          ]
+        }
+      },
+      "ContactInfo": {
+        "ComboFields": {
+          "ComboField": [
+            {
+              "-name": "cboRegion",
+              "DisplayMembers": {
+                "DisplayMember": [
+                  "Americas",
+                  "Europe / Middle East / Africa",
+                  "Asia Pacific and Japan",
+                  "Mexico",
+                  "Brasil",
+                  "Other Latin America / Caribbean"
+                ]
+              },
+              "ValueMembers": {
+                "ValueMember": [
+                  "Americas",
+                  "Europe / Middle East / Africa",
+                  "Asia Pacific and Japan",
+                  "Mexico",
+                  "Brasil",
+                  "Other Latin America / Caribbean"
+                ]
+              }
+            },
+            {
+              "-name": "cboRole",
+              "DisplayMembers": {
+                "DisplayMember": [
+                  "Customer",
+                  "System Integrator",
+                  "Reseller",
+                  "Oracle",
+                  "HPE"
+                ]
+              },
+              "ValueMembers": {
+                "ValueMember": "Customer",
+                "DisplayMember": [
+                  "System Integrator",
+                  "Reseller",
+                  "Oracle",
+                  "HPE"
+                ]
+              }
+            },
+            {
+              "-name": "cboCountry",
+              "DisplayMembers": {
+                "DisplayMember": [
+                  "Argentina",
+                  "Australia",
+                  "Austria",
+                  "Belgium",
+                  "Brazil",
+                  "Canada",
+                  "Chile",
+                  "China",
+                  "Columbia",
+                  "Czech Republic",
+                  "Denmark",
+                  "Finland",
+                  "France",
+                  "Germany",
+                  "Hong Kong",
+                  "Hungary",
+                  "India",
+                  "Ireland",
+                  "Israel",
+                  "Italy",
+                  "Japan",
+                  "Malaysia",
+                  "Mexico",
+                  "Middle East Region",
+                  "Netherlands",
+                  "New Zealand",
+                  "Norway",
+                  "Poland",
+                  "Portugal",
+                  "Russia",
+                  "Singapore",
+                  "South Africa",
+                  "South Korea",
+                  "Spain",
+                  "Sweden",
+                  "Switzerland",
+                  "Taiwan",
+                  "Thailand",
+                  "United Kingdom",
+                  "United States",
+                  "US Federal Government",
+                  "Venezuela",
+                  "Vietnam"
+                ]
+              },
+              "ValueMembers": {
+                "ValueMember": [
+                  "Argentina",
+                  "Australia",
+                  "Austria",
+                  "Belgium",
+                  "Brazil",
+                  "Canada",
+                  "Chile",
+                  "China",
+                  "Columbia",
+                  "Czech Republic",
+                  "Denmark",
+                  "Finland",
+                  "France",
+                  "Germany",
+                  "Hong Kong",
+                  "Hungary",
+                  "India",
+                  "Ireland",
+                  "Israel",
+                  "Italy",
+                  "Japan",
+                  "Malaysia",
+                  "Mexico",
+                  "Middle East Region",
+                  "Netherlands",
+                  "New Zealand",
+                  "Norway",
+                  "Poland",
+                  "Portugal",
+                  "Russia",
+                  "Singapore",
+                  "South Africa",
+                  "South Korea",
+                  "Spain",
+                  "Sweden",
+                  "Switzerland",
+                  "Taiwan",
+                  "Thailand",
+                  "United Kingdom",
+                  "United States",
+                  "US Federal Government",
+                  "Venezuela",
+                  "Vietnam"
+                ]
+              }
+            },
+            {
+              "-name": "cboStates",
+              "DisplayMembers": {
+                "DisplayMember": [
+                  "AL",
+                  "AK",
+                  "AZ",
+                  "AR",
+                  "CA",
+                  "CO",
+                  "CT",
+                  "DE",
+                  "FL",
+                  "GA",
+                  "HI",
+                  "ID",
+                  "IL",
+                  "IN",
+                  "IA",
+                  "KS",
+                  "KY",
+                  "LA",
+                  "ME",
+                  "MD",
+                  "MA",
+                  "MI",
+                  "MN",
+                  "MS",
+                  "MO",
+                  "MT",
+                  "NE",
+                  "NV",
+                  "NH",
+                  "NJ",
+                  "NM",
+                  "NY",
+                  "NC",
+                  "ND",
+                  "OH",
+                  "OK",
+                  "OR",
+                  "PA",
+                  "RI",
+                  "SC",
+                  "SD",
+                  "TN",
+                  "TX",
+                  "UT",
+                  "VT",
+                  "VA",
+                  "WA",
+                  "WV",
+                  "WI",
+                  "WY"
+                ]
+              },
+              "ValueMembers": {
+                "ValueMember": [
+                  "AL",
+                  "AK",
+                  "AZ",
+                  "AR",
+                  "CA",
+                  "CO",
+                  "CT",
+                  "DE",
+                  "FL",
+                  "GA",
+                  "HI",
+                  "ID",
+                  "IL",
+                  "IN",
+                  "IA",
+                  "KS",
+                  "KY",
+                  "LA",
+                  "ME",
+                  "MD",
+                  "MA",
+                  "MI",
+                  "MN",
+                  "MS",
+                  "MO",
+                  "MT",
+                  "NE",
+                  "NV",
+                  "NH",
+                  "NJ",
+                  "NM",
+                  "NY",
+                  "NC",
+                  "ND",
+                  "OH",
+                  "OK",
+                  "OR",
+                  "PA",
+                  "RI",
+                  "SC",
+                  "SD",
+                  "TN",
+                  "TX",
+                  "UT",
+                  "VT",
+                  "VA",
+                  "WA",
+                  "WV",
+                  "WI",
+                  "WY"
+                ]
+              }
+            }
+          ]
+        },
+        "RegionInfo": {
+          "Region": [
+            {
+              "-Name": "Asia Pacific and Japan",
+              "-MailId": "Oracle-RAM.APJ@hpe.com",
+              "Country": [
+                "Australia",
+                "Indonesia",
+                "Japan",
+                "Malaysia",
+                "New Zealand",
+                "Philippines",
+                "Singapore",
+                "South Korea",
+                "Taiwan",
+                "Thailand",
+                "Vietnam"
+              ]
+            },
+            {
+              "-Name": "Americas",
+              "-MailId": "Oracle-RAM@hpe.com",
+              "Country": [
+                "Canada",
+                "United States",
+                "US Federal Government"
+              ]
+            },
+            {
+              "-Name": "Brazil",
+              "-MailId": "Oracle-RAM.LAC@hpe.com",
+              "Country": "Brazil"
+            },
+            {
+              "-Name": "Mexico",
+              "-MailId": "Oracle-RAM.LAC@hpe.com",
+              "Country": "Mexico"
+            },
+            {
+              "-Name": "Other Latin America / Caribbean",
+              "-MailId": "Oracle-RAM.LAC@hpe.com",
+              "Country": [
+                "Argentina",
+                "Chile",
+                "Columbia",
+                "Venezuela"
+              ]
+            }
+          ]
+        }
+      },
+      "OracleProfileInput": {
+        "Roles": {
+          "Role": [
+            { "-Name": "Customer" },
+            { "-Name": "System Integrator" },
+            { "-Name": "Reseller" },
+            { "-Name": "Oracle" },
+            { "-Name": "HPE" }
+          ]
+        },
+        "Regions": {
+          "Region": [
+            {
+              "-Name": "Americas",
+              "-MailId": "Oracle-ram@hpe.com"
+            },
+            {
+              "-Name": "Europe / Middle East / Africa",
+              "-MailId": "Oracle-ram.emea@hpe.com"
+            },
+            {
+              "-Name": "Asia Pacific and Japan",
+              "-MailId": "Oracle-ram.apj@hpe.com"
+            },
+            {
+              "-Name": "Mexico",
+              "-MailId": "Oracle-ram.lac@hpe.com"
+            },
+            {
+              "-Name": "Brasil",
+              "-MailId": "Oracle-ram.lac@hpe.com"
+            },
+            {
+              "-Name": "Other Latin America / Caribbean",
+              "-MailId": "Oracle-ram.lac@hpe.com"
+            }
+          ]
+        }
+      },
+      "ReferenceArchitecture": {
+        "-Text": "HPE has produced SAP HANA collateral (white papers, technical articles etc.) that provide information on reference configurations. HPE recommends that you consult the information sources provided by clicking on the URL below to learn more.",
+        "Doc": {
+          "Name": "HPE reference architecture for SAP HANA backup and recovery",
+          "Url": "http://h20195.www2.hpe.com/V2/GetDocument.aspx?docname=4AA6-7262ENW"
+        }
+      },
+      "AdditionalInformation": {
+        "-Text": "HPE has produced SAP HANA collateral (white papers, technical articles etc.) that provide additional information on how to leverage the advanced features of the HPE Server family in configuring SAP HANA business solutions. HPE recommends that you consult the information sources provided by clicking on the URL below to learn more.",
+        "Doc": [
+          {
+            "Name": "HPE ConvergedSystem for SAP HANA",
+            "Url": "https://www.hpe.com/us/en/solutions/sap-hana.html"
+          },
+          {
+            "Name": "HPE ConvergedSystem 500 for SAP HANA Scale-up and Scale-out configurations solution architecture",
+            "Url": "http://h20195.www2.hpe.com/V2/GetDocument.aspx?docname=4AA6-7262ENW"
+          }
+        ]
+      }
+    }
+  }
+}

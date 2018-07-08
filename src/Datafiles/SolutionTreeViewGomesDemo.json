@@ -1,0 +1,284 @@
+{
+    "Solutions": {
+        "@PriceList": "12/18/2017 12:00:00 AM",
+        "@TreeView": "1",
+        "@ETSEVersion": "17.6.4",
+        "@Country": "United States",
+        "@Currency": "UD",
+        "Solution": {
+            "@ID": "1",
+            "@Customizable": "1",
+            "@FirstRole": "Mailbox (log and database isolated) server - Site 1 - No DAG",
+            "RackSelected": [
+                {
+                    "@SiteName": "Site 1",
+                    "@MaxPower": "",
+                    "@MaxWeight": "",
+                    "@Qty": "1",
+                    "@RackType": "36U",
+                    "@Price": "1649",
+                    "@PartNumber": "BW899A",
+                    "@Description": "HPE 36U 600mm x 1200mm Enterprise Pallet Rack",
+                    "@CompDesc": "1 x HPE 36U 600mm x 1200mm Enterprise Pallet Rack (36U)"
+                },
+                {
+                    "@SiteName": "Site 2",
+                    "@MaxPower": "",
+                    "@MaxWeight": "",
+                    "@Qty": "1",
+                    "@RackType": "36U",
+                    "@Price": "1649",
+                    "@PartNumber": "BW899A",
+                    "@Description": "HPE 36U 600mm x 1200mm Enterprise Pallet Rack",
+                    "@CompDesc": "1 x HPE 36U 600mm x 1200mm Enterprise Pallet Rack (36U)"
+                },
+                {
+                    "@SiteName": "Site 3",
+                    "@MaxPower": "",
+                    "@MaxWeight": "",
+                    "@Qty": "1",
+                    "@RackType": "36U",
+                    "@Price": "1649",
+                    "@PartNumber": "BW899A",
+                    "@Description": "HPE 36U 600mm x 1200mm Enterprise Pallet Rack",
+                    "@CompDesc": "1 x HPE 36U 600mm x 1200mm Enterprise Pallet Rack (36U)"
+                }
+            ],
+            "SolutionsArchitecture": "Server solution with selected platforms",
+            "ResoningText": "The configured server roles are based on the best-fit server platforms selected for each site.",
+            "SolProfile": {
+                "@ID": "1",
+                "#text": "Recommended"
+            },
+            "NoOfSolutionWithAsterisk": "0",
+            "SolPrice": "725,238",
+            "TotalPrice": "725,238",
+            "Roles": {
+                "@FirstRole": "Mailbox (log and database isolated) server - Site 1 - No DAG",
+                "Role": [
+                  {
+                    "@Site": "",
+                    "@ParentSite": "",
+                    "@SharedRoles": "",
+                    "@SiteName": "Site 1",
+                    "@DisplayName": "",
+                    "@BranchSitesWithoutHardware": "",
+                    "@RoleSubNode": "",
+                    "@SiteSubNode": "",
+                    "SAN": {
+                        "SAN": "true",
+                        "PerfData": "false"
+                    },
+                    "DAS": [
+                        {
+                            "VolumeName": "System / Page File (SPF)",
+                            "Disk": "300GB 12G SAS 10K 2.5in SC ENT HDD",
+                            "RAIDLevel": "RAID10",
+                            "DiskQty": "2",
+                            "OnlineSpare": "0"
+                        },
+                        {
+                            "VolumeName": "Transaction Logs (TL)",
+                            "Disk": "600GB 12G SAS 10K 2.5in SC ENT HDD",
+                            "RAIDLevel": "RAID10",
+                            "DiskQty": "2",
+                            "OnlineSpare": "0",
+                            "ArrayType": "D3940",
+                            "DisplayPerServer": "true"
+                        },
+                        {
+                            "VolumeName": "Databases (DB)",
+                            "Disk": "600GB 12G SAS 10K 2.5in SC ENT HDD",
+                            "RAIDLevel": "RAID10",
+                            "DiskQty": "2",
+                            "OnlineSpare": "0",
+                            "ArrayType": "D3940",
+                            "DisplayPerServer": "true"
+                        },
+                        {
+                            "VolumeName": "Restore LUN (RL)",
+                            "Disk": "600GB 12G SAS 10K 2.5in SC ENT HDD",
+                            "RAIDLevel": "RAID0",
+                            "DiskQty": "1",
+                            "OnlineSpare": "0",
+                            "ArrayType": "D3940",
+                            "DisplayPerServer": "true"
+                        }
+                    ],
+                    "RoleName": "Mailbox (log and database isolated) server - Site 1 - No DAG",
+                    "ServerName": {
+                        "@Qty": "1",
+                        "@Height": "3",
+                        "@Power": "",
+                        "@Weight": "",
+                        "#text": "Synergy 480 Gen10 Server"
+                    },
+                    "BladeEncGR": {
+                        "@BladeShareName": "Synergy in Shared Frame(s) - Site 1 - CTO",
+                        "@PartNumber": "797740-B21",
+                        "@BladesPerEnc": "12",
+                        "#text": "HPE Synergy 12000 CTO Frame 1xFLM 10x Fan"
+                    },
+                    "BladeEncGRQty": "1",
+                    "Processor": "1 x Synergy 480 Gen10 Server 1P",
+                    "ProcessorDetails": "Intel  6 - Core 1.7GHz / 11MB Cache",
+                    "Memory": "64 GB  RAM",
+                    "NSSShared": [],
+                    "Storage": "523 GB Storage",
+                    "NICs": {
+                        "NICHeader": "NIC Details (2 - Ports)",
+                        "NIC": "1 x HPE Synergy 3820C 10/20Gb CNA"
+                    }
+                  },
+                  {
+                    "@Site": "",
+                    "@ParentSite": "",
+                    "@SharedRoles": "",
+                    "@SiteName": "Site 1",
+                    "@DisplayName": "",
+                    "@BranchSitesWithoutHardware": "",
+                    "@RoleSubNode": "",
+                    "@SiteSubNode": "",
+                    "SAN": {
+                        "SAN": "true",
+                        "PerfData": "false"
+                    },
+                    "DAS": [
+                        {
+                            "VolumeName": "System / Page File - DAG 2 (SPF)",
+                            "Disk": "300GB 12G SAS 10K 2.5in SC ENT HDD",
+                            "RAIDLevel": "RAID10",
+                            "DiskQty": "4",
+                            "OnlineSpare": "0"
+                        },
+                        {
+                            "VolumeName": "Transaction Logs/Databases - DAG 2 (TLDB)",
+                            "Disk": "900GB 12G SAS 10K 2.5in SC ENT HDD",
+                            "RAIDLevel": "Non-RAID",
+                            "DiskQty": "12",
+                            "OnlineSpare": "0",
+                            "ArrayType": "D3940",
+                            "DisplayPerServer": "true"
+                        },
+                        {
+                            "VolumeName": "Restore LUN - DAG 2 (RL)",
+                            "Disk": "900GB 12G SAS 10K 2.5in SC ENT HDD",
+                            "RAIDLevel": "Non-RAID",
+                            "DiskQty": "2",
+                            "OnlineSpare": "0",
+                            "ArrayType": "D3940",
+                            "DisplayPerServer": "true"
+                        }
+                    ],
+                    "RoleName": "Mailbox (log and database combined) server - Site 1 - DAG 2",
+                    "ServerName": {
+                        "@Qty": "2",
+                        "@Height": "3",
+                        "@Power": "",
+                        "@Weight": "",
+                        "#text": "Synergy 480 Gen10 Server"
+                    },
+                    "BladeEncGR": {
+                        "@BladeShareName": "Synergy in Shared Frame(s) - Site 1 - CTO",
+                        "@PartNumber": "797740-B21",
+                        "@BladesPerEnc": "12",
+                        "#text": "HPE Synergy 12000 CTO Frame 1xFLM 10x Fan"
+                    },
+                    "BladeEncGRQty": "1",
+                    "Processor": "2 x Synergy 480 Gen10 Server 1P",
+                    "ProcessorDetails": "Intel  6 - Core 1.7GHz / 11MB Cache",
+                    "Memory": "64 GB  RAM",
+                    "NSSShared": [],
+                    "Storage": "1,629 GB Storage",
+                    "NICs": {
+                        "NICHeader": "NIC Details (2 - Ports)",
+                        "NIC": "1 x HPE Synergy 3820C 10/20Gb CNA"
+                    }
+                  },
+                  {
+                    "@Site": "",
+                    "@ParentSite": "",
+                    "@SharedRoles": "",
+                    "@SiteName": "Site 1",
+                    "@DisplayName": "",
+                    "@BranchSitesWithoutHardware": "",
+                    "@RoleSubNode": "",
+                    "@SiteSubNode": "",
+                    "SAN": {
+                        "SAN": "true",
+                        "PerfData": "false"
+                    },
+                    "DAS": [
+                        {
+                            "VolumeName": "System / Page File - DAG 1 (SPF)",
+                            "Disk": "300GB 12G SAS 10K 2.5in SC ENT HDD",
+                            "RAIDLevel": "RAID10",
+                            "DiskQty": "6",
+                            "OnlineSpare": "0"
+                        },
+                        {
+                            "VolumeName": "Transaction Logs/Databases - DAG 1 (TLDB)",
+                            "Disk": "1.8TB 12G SAS 10K 2.5in SC 512e HDD",
+                            "RAIDLevel": "Non-RAID",
+                            "DiskQty": "36",
+                            "OnlineSpare": "0",
+                            "ArrayType": "D3940",
+                            "DisplayPerServer": "true"
+                        },
+                        {
+                            "VolumeName": "Restore LUN - DAG 1 (RL)",
+                            "Disk": "1.8TB 12G SAS 10K 2.5in SC 512e HDD",
+                            "RAIDLevel": "Non-RAID",
+                            "DiskQty": "3",
+                            "OnlineSpare": "0",
+                            "ArrayType": "D3940",
+                            "DisplayPerServer": "true"
+                        }
+                    ],
+                    "RoleName": "Mailbox (log and database combined) server - Site 1 - DAG 1",
+                    "ServerName": {
+                        "@Qty": "3",
+                        "@Height": "3",
+                        "@Power": "",
+                        "@Weight": "",
+                        "#text": "Synergy 480 Gen10 Server"
+                    },
+                    "BladeEncGR": {
+                        "@BladeShareName": "Synergy in Shared Frame(s) - Site 1 - CTO",
+                        "@PartNumber": "797740-B21",
+                        "@BladesPerEnc": "12",
+                        "#text": "HPE Synergy 12000 CTO Frame 1xFLM 10x Fan"
+                    },
+                    "BladeEncGRQty": "1",
+                    "Processor": "3 x Synergy 480 Gen10 Server 1P",
+                    "ProcessorDetails": "Intel Deca  Core\n                                      2.2GHz / 13.75MB Cache",
+                    "Memory": "128 GB  RAM",
+                    "NSSShared": [],
+                    "Storage": "15,052 GB Storage",
+                    "NICs": {
+                        "NICHeader": "NIC Details (2 - Ports)",
+                        "NIC": "1 x HPE Synergy 3820C 10/20Gb CNA"
+                    }
+                  }
+                ],
+                "BladeEncShareNameGR": [
+                    {
+                    "@BladeEncGRShareQty": "2",
+                    "@Description": "HPE Synergy 12000 CTO Frame 1xFLM 10x Fan",
+                    "#text": "Synergy in Shared Frame(s) - Site 1 - CTO"
+                    },
+                    {
+                    "@BladeEncGRShareQty": "2",
+                    "@Description": "HPE Synergy 12000 CTO Frame 1xFLM 10x Fan",
+                    "#text": "Synergy in Shared Frame(s) - Site 2 - CTO"
+                    },
+                    {
+                    "@BladeEncGRShareQty": "2",
+                    "@Description": "HPE Synergy 12000 CTO Frame 1xFLM 10x Fan",
+                    "#text": "Synergy in Shared Frame(s) - Site 3 - CTO"
+                    }
+                ]
+            }
+        }
+    }
+}

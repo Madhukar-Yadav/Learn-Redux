@@ -1,0 +1,448 @@
+{
+  "Solution": {
+    "-ID": "1",
+    "RoleBOM": [
+      {
+        "-Name": "Mailbox (log and database combined) server - Site 1 - DAG 1",
+        "-SiteName": "Site 1",
+        "ConsolidatedBOM": {
+          "-xmlns:html": "http://www.w3.org/TR/REC-html40",
+          "-xmlns:msxml": "urn:schemas-microsoft-com:xslt",
+          "-ConfigType": "2",
+          "-Country": "United States",
+          "-Currency": "UD",
+          "-PriceFileDate": "1/15/2018",
+          "-CurrencyCode": "$",
+          "TableData": [
+            {
+              "-ID": "0.1",
+              "-Type": "ModelsTotal",
+              "Qty": "1",
+              "PartNumber": "BW899A",
+              "Description": "HP 636 1200mm Pallet Intelligent Series Rack",
+              "Price": "1649",
+              "CostAtQty": "1649",
+              "Status": "Active"
+            },
+            {
+              "-ID": "9",
+              "-Type": "ServerFamilyTotal",
+              "Qty": "2",
+              "PartNumber": "786593-B21",
+              "Description": "HPE XL450 Gen9 1x Node Svr",
+              "Price": "1750",
+              "CostAtQty": "3500",
+              "Status": "Active"
+            },
+            {
+              "-ID": "11",
+              "-Type": "ModelsTotal",
+              "Qty": "8",
+              "PartNumber": "720620-B21",
+              "Description": "HP 1400W FS Plat Hot Plug Pwr Supply Kit",
+              "Price": "429",
+              "CostAtQty": "3432",
+              "Status": "Active"
+            },
+            {
+              "-ID": "12",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": "842993-L21",
+              "Description": "HPE XL450 Gen9 E5-2630Lv4 FIO Kit",
+              "Price": "919",
+              "CostAtQty": "1838",
+              "Status": "Active"
+            },
+            {
+              "-ID": "12",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": "799581-B21",
+              "Description": "HP Apollo 4510 Gen9 CTO Chassis",
+              "Price": "8000",
+              "CostAtQty": "16000",
+              "Status": "Active"
+            },
+            {
+              "-ID": "12",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": "681254-B21",
+              "Description": "HP 4.3U Server Rail Kit",
+              "Price": "300",
+              "CostAtQty": "600",
+              "Status": "Active"
+            },
+            {
+              "-ID": "14",
+              "-Type": "MemoryTotal",
+              "Qty": "2",
+              "PartNumber": {
+                "-CTOFORMAT": "1",
+                "#text": "805358-B21"
+              },
+              "Description": "HPE 64GB 4Rx4 PC4-2400T-L Kit",
+              "Price": "1799",
+              "CostAtQty": "3598",
+              "Status": "Active"
+            },
+            {
+              "-ID": "18",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": {
+                "-CTOFORMAT": "1",
+                "#text": "726821-B21"
+              },
+              "Description": "HP Smart Array P440/4G Controller",
+              "Price": "899",
+              "CostAtQty": "1798",
+              "Status": "Active"
+            },
+            {
+              "-ID": "19",
+              "-Type": "DiskTotal",
+              "Qty": "4",
+              "CostAtQty": "1996",
+              "PartNumber": {
+                "-CTOFORMAT": "1",
+                "#text": "655710-B21"
+              },
+              "Description": "1TB 6G SATA 7.2k 2.5in SC MDL HDD",
+              "Price": "499",
+              "Status": "Active"
+            },
+            {
+              "-ID": "19",
+              "-Type": "DiskTotal",
+              "Qty": "10",
+              "CostAtQty": "7690",
+              "PartNumber": {
+                "-CTOFORMAT": "1",
+                "#text": "797277-B21"
+              },
+              "Description": "3TB 6G SAS 7.2K 3.5in  MDL LP HDD",
+              "Price": "769",
+              "Status": "Active"
+            },
+            {
+              "-ID": "21",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "CostAtQty": "138",
+              "PartNumber": {
+                "-CTOFORMAT": "1",
+                "#text": "808969-B21"
+              },
+              "Description": "HP Apollo 4510 P440 Cable Kit",
+              "Price": "69",
+              "Status": "Active"
+            },
+            {
+              "-ID": "21",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "CostAtQty": "858",
+              "PartNumber": {
+                "-CTOFORMAT": "1",
+                "#text": "799377-B21"
+              },
+              "Description": "HP XL4510 8HDD Cage Kit",
+              "Price": "429",
+              "Status": "Active"
+            }
+          ]
+        }
+      },
+      {
+        "-Name": "Consolidated BOM",
+        "-SiteName": "Consolidated BOM",
+        "ConsolidatedBOM": {
+          "-xmlns:html": "http://www.w3.org/TR/REC-html40",
+          "-xmlns:msxml": "urn:schemas-microsoft-com:xslt",
+          "-Country": "United States",
+          "-Currency": "UD",
+          "-PriceFileDate": "1/15/2018",
+          "-CurrencyCode": "$",
+          "TableData": [
+            {
+              "-ID": "0.1",
+              "-Type": "ModelsTotal",
+              "Qty": "1",
+              "PartNumber": "BW899A",
+              "Description": "HP 636 1200mm Pallet Intelligent Series Rack",
+              "Price": "1,649",
+              "CostAtQty": "1,649",
+              "Status": "Active"
+            },
+            {
+              "-ID": "9",
+              "-Type": "ServerFamilyTotal",
+              "Qty": "2",
+              "PartNumber": "786593-B21",
+              "Description": "HPE XL450 Gen9 1x Node Svr",
+              "Price": "1,750",
+              "CostAtQty": "3,500",
+              "Status": "Active"
+            },
+            {
+              "-ID": "11",
+              "-Type": "ModelsTotal",
+              "Qty": "8",
+              "PartNumber": "720620-B21",
+              "Description": "HP 1400W FS Plat Hot Plug Pwr Supply Kit",
+              "Price": "429",
+              "CostAtQty": "3,432",
+              "Status": "Active"
+            },
+            {
+              "-ID": "12",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": "842993-L21",
+              "Description": "HPE XL450 Gen9 E5-2630Lv4 FIO Kit",
+              "Price": "919",
+              "CostAtQty": "1,838",
+              "Status": "Active"
+            },
+            {
+              "-ID": "12",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": "799581-B21",
+              "Description": "HP Apollo 4510 Gen9 CTO Chassis",
+              "Price": "8,000",
+              "CostAtQty": "16,000",
+              "Status": "Active"
+            },
+            {
+              "-ID": "12",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": "681254-B21",
+              "Description": "HP 4.3U Server Rail Kit",
+              "Price": "300",
+              "CostAtQty": "600",
+              "Status": "Active"
+            },
+            {
+              "-ID": "14",
+              "-Type": "MemoryTotal",
+              "Qty": "2",
+              "PartNumber": "805358-B21",
+              "Description": "HPE 64GB 4Rx4 PC4-2400T-L Kit",
+              "Price": "1,799",
+              "CostAtQty": "3,598",
+              "Status": "Active"
+            },
+            {
+              "-ID": "18",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": "726821-B21",
+              "Description": "HP Smart Array P440/4G Controller",
+              "Price": "899",
+              "CostAtQty": "1,798",
+              "Status": "Active"
+            },
+            {
+              "-ID": "19",
+              "-Type": "DiskTotal",
+              "Qty": "4",
+              "PartNumber": "655710-B21",
+              "Description": "1TB 6G SATA 7.2k 2.5in SC MDL HDD",
+              "Price": "499",
+              "CostAtQty": "1,996",
+              "Status": "Active"
+            },
+            {
+              "-ID": "19",
+              "-Type": "DiskTotal",
+              "Qty": "10",
+              "PartNumber": "797277-B21",
+              "Description": "3TB 6G SAS 7.2K 3.5in  MDL LP HDD",
+              "Price": "769",
+              "CostAtQty": "7,690",
+              "Status": "Active"
+            },
+            {
+              "-ID": "21",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": "808969-B21",
+              "Description": "HP Apollo 4510 P440 Cable Kit",
+              "Price": "69",
+              "CostAtQty": "138",
+              "Status": "Active"
+            },
+            {
+              "-ID": "21",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": "799377-B21",
+              "Description": "HP XL4510 8HDD Cage Kit",
+              "Price": "429",
+              "CostAtQty": "858",
+              "Status": "Active"
+            }
+          ],
+          "TotalPrice": "43,097"
+        }
+      },
+      {
+        "-Name": "Consolidated BOM",
+        "-SiteName": "Site 1",
+        "ConsolidatedBOM": {
+          "-xmlns:html": "http://www.w3.org/TR/REC-html40",
+          "-xmlns:msxml": "urn:schemas-microsoft-com:xslt",
+          "-ConfigType": "2",
+          "-Country": "United States",
+          "-Currency": "UD",
+          "-PriceFileDate": "1/15/2018",
+          "-CurrencyCode": "$",
+          "TableData": [
+            {
+              "-ID": "0.1",
+              "-Type": "ModelsTotal",
+              "Qty": "1",
+              "PartNumber": "BW899A",
+              "Description": "HP 636 1200mm Pallet Intelligent Series Rack",
+              "Price": "1649",
+              "CostAtQty": "1649",
+              "Status": "Active"
+            },
+            {
+              "-ID": "9",
+              "-Type": "ServerFamilyTotal",
+              "Qty": "2",
+              "PartNumber": "786593-B21",
+              "Description": "HPE XL450 Gen9 1x Node Svr",
+              "Price": "1750",
+              "CostAtQty": "3500",
+              "Status": "Active"
+            },
+            {
+              "-ID": "11",
+              "-Type": "ModelsTotal",
+              "Qty": "8",
+              "PartNumber": "720620-B21",
+              "Description": "HP 1400W FS Plat Hot Plug Pwr Supply Kit",
+              "Price": "429",
+              "CostAtQty": "3432",
+              "Status": "Active"
+            },
+            {
+              "-ID": "12",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": "842993-L21",
+              "Description": "HPE XL450 Gen9 E5-2630Lv4 FIO Kit",
+              "Price": "919",
+              "CostAtQty": "1838",
+              "Status": "Active"
+            },
+            {
+              "-ID": "12",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": "799581-B21",
+              "Description": "HP Apollo 4510 Gen9 CTO Chassis",
+              "Price": "8000",
+              "CostAtQty": "16000",
+              "Status": "Active"
+            },
+            {
+              "-ID": "12",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": "681254-B21",
+              "Description": "HP 4.3U Server Rail Kit",
+              "Price": "300",
+              "CostAtQty": "600",
+              "Status": "Active"
+            },
+            {
+              "-ID": "14",
+              "-Type": "MemoryTotal",
+              "Qty": "2",
+              "PartNumber": {
+                "-CTOFORMAT": "1",
+                "#text": "805358-B21"
+              },
+              "Description": "HPE 64GB 4Rx4 PC4-2400T-L Kit",
+              "Price": "1799",
+              "CostAtQty": "3598",
+              "Status": "Active"
+            },
+            {
+              "-ID": "18",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "PartNumber": {
+                "-CTOFORMAT": "1",
+                "#text": "726821-B21"
+              },
+              "Description": "HP Smart Array P440/4G Controller",
+              "Price": "899",
+              "CostAtQty": "1798",
+              "Status": "Active"
+            },
+            {
+              "-ID": "19",
+              "-Type": "DiskTotal",
+              "Qty": "4",
+              "CostAtQty": "1996",
+              "PartNumber": {
+                "-CTOFORMAT": "1",
+                "#text": "655710-B21"
+              },
+              "Description": "1TB 6G SATA 7.2k 2.5in SC MDL HDD",
+              "Price": "499",
+              "Status": "Active"
+            },
+            {
+              "-ID": "19",
+              "-Type": "DiskTotal",
+              "Qty": "10",
+              "CostAtQty": "7690",
+              "PartNumber": {
+                "-CTOFORMAT": "1",
+                "#text": "797277-B21"
+              },
+              "Description": "3TB 6G SAS 7.2K 3.5in  MDL LP HDD",
+              "Price": "769",
+              "Status": "Active"
+            },
+            {
+              "-ID": "21",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "CostAtQty": "138",
+              "PartNumber": {
+                "-CTOFORMAT": "1",
+                "#text": "808969-B21"
+              },
+              "Description": "HP Apollo 4510 P440 Cable Kit",
+              "Price": "69",
+              "Status": "Active"
+            },
+            {
+              "-ID": "21",
+              "-Type": "ModelsTotal",
+              "Qty": "2",
+              "CostAtQty": "858",
+              "PartNumber": {
+                "-CTOFORMAT": "1",
+                "#text": "799377-B21"
+              },
+              "Description": "HP XL4510 8HDD Cage Kit",
+              "Price": "429",
+              "Status": "Active"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

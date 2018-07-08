@@ -1,0 +1,84 @@
+{
+  "WorkLoad": {
+    "strSizerName": "SAP HANA Sizing Tool",
+    "UserInputs": {
+      "Environments": {
+        "CustomerInfo": {
+          "CompanyName": [],
+          "ProjectManagerName": [],
+          "ProjectManagerEMail": []
+        },
+        "Version": "18.8",
+        "ProductionEnvironment": {
+          "Name": "Production Environment",
+          "System": "1",
+          "Architecture": "1",
+          "SAPSCalculated": "-1",
+          "SAPSpecified": "500",
+          "NoOfUsersFromSAP": [],
+          "MemorySize": "1",
+          "GrowthYears": "1",
+          "YearlyGrowth": "10%",
+          "DataBaseSize": "1",
+          "DTselected": "False",
+          "EPH": "EHP6",
+          "ProdHanaSelected": [],
+          "OS": "SUSE Linux"
+        },
+        "OtherEnvironments": {
+          "@Selected": "",
+          "TestQA": {
+            "@dedicated": "False",
+            "TestQAselected": "False",
+            "TestQADBSize": "0",
+            "TestQADB": [],
+            "TestHana": []
+          },
+          "Dev": {
+            "@dedicated": "False",
+            "Devselected": "False",
+            "DevDBSize": "0",
+            "DevDB": [],
+            "DevHana": []
+          },
+          "SandBox": {
+            "@dedicated": "False",
+            "SandBoxselected": "False",
+            "SandBoxDBSize": "0",
+            "SandBoxDB": [],
+            "SandBoxHana": []
+          },
+          "DBStack": {
+            "rbTest1": [],
+            "rbTest2": [],
+            "rbTest3": [],
+            "rdDev1": [],
+            "rdDev2": [],
+            "rdDev3": [],
+            "rdSB1": [],
+            "rdSB2": [],
+            "rdSB3": []
+          },
+          "Caption1": [],
+          "Caption2": [],
+          "Caption3": [],
+          "CombinedDB": {
+            "@selected": "False",
+            "Combinedsystems": [],
+            "CombinedDBSize": [],
+            "CombinedDB": [],
+            "CombinedHANA": [],
+            "VirtualHanaSelected": "False",
+            "v1": "False",
+            "v2": "False",
+            "v3": "False"
+          },
+          "TotalDBPercent": [],
+          "TotalDBSize": []
+        },
+        "url": "http://h71028.www7.hp.com/enterprise/cache/11813-0-0-0-121.html",
+        "email": "ese_aa_solutions@hp.com"
+      }
+    }
+  }
+}

@@ -1,0 +1,208 @@
+{
+    "Solutions": {
+        "@PriceList": "4/1/2018 12:00:00 AM",
+        "@TreeView": "1",
+        "@ETSEVersion": "18.8.0",
+        "@Country": "United States",
+        "@Currency": "UD",
+        "Solution": {
+            "@ID": "1",
+            "@Customizable": "1",
+            "@FirstRole": "ProdCentralServer",
+            "RackSelected": {
+                "@SiteName": "",
+                "@MaxPower": "",
+                "@MaxWeight": "",
+                "@Qty": "1",
+                "@RackType": "36U",
+                "@Price": "2099",
+                "@PartNumber": "BW896A",
+                "@Description": "HPE 36U 600mm x 1075mm Enterprise Shock Rack",
+                "@CompDesc": "1 x HPE 36U 600mm x 1075mm Enterprise Shock Rack (36U)"
+            },
+            "SolutionsArchitecture": "Central System",
+            "ResoningText": "",
+            "SolProfile": {
+                "@ID": "1",
+                "#text": "Recommended"
+            },
+            "NoOfSolutionWithAsterisk": "0",
+            "SolPrice": "200,641",
+            "TotalPrice": "200,641",
+            "Roles": {
+                "@FirstRole": "ProdCentralServer",
+                "Role": [
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "ProdCentralServer",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "4",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "ProLiant DL580 Gen9"
+                        },
+                        "Processor": "1 x ProLiant DL580 Gen9 2P",
+                        "ProcessorDetails": "Intel Quad  Core\n                                      3.2GHz / 45MB Cache",
+                        "Memory": "64 GB  RAM",
+                        "NSSShared": "",
+                        "Storage": "GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (0 - Ports)"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "Test/Quality Assurance System",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "3",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "ProLiant BL460c Gen10 Server"
+                        },
+                        "BladeEncGR": {
+                            "@BladeShareName": "",
+                            "@PartNumber": "681844-B22",
+                            "@BladesPerEnc": "16",
+                            "#text": "HPE BLc7000 TAA CTO Platinum Enclosure"
+                        },
+                        "BladeEncGRQty": "1",
+                        "Processor": "1 x ProLiant BL460c Gen10 Server 2P",
+                        "ProcessorDetails": "Intel Dodeca  Core\n                                      2.1GHz / 16.5MB Cache",
+                        "Memory": "128 GB  RAM",
+                        "NSSShared": "",
+                        "Storage": "GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details - Virtual Connect"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "Training System",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "3",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "ProLiant BL460c Gen10 Server"
+                        },
+                        "BladeEncGR": {
+                            "@BladeShareName": "",
+                            "@PartNumber": "681844-B22",
+                            "@BladesPerEnc": "16",
+                            "#text": "HPE BLc7000 TAA CTO Platinum Enclosure"
+                        },
+                        "BladeEncGRQty": "1",
+                        "Processor": "1 x ProLiant BL460c Gen10 Server 2P",
+                        "ProcessorDetails": "Intel Octadeca  Core\n                                      2.3GHz / 24.75MB Cache",
+                        "Memory": "128 GB  RAM",
+                        "NSSShared": "",
+                        "Storage": "GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details - Virtual Connect"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "Development System",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "4",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "ProLiant DL580 Gen9"
+                        },
+                        "Processor": "1 x ProLiant DL580 Gen9 2P",
+                        "ProcessorDetails": "Intel Hexadeca  Core\n                                      2.2GHz / 40MB Cache",
+                        "Memory": "64 GB  RAM",
+                        "NSSShared": "",
+                        "Storage": "GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (0 - Ports)"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "Sandbox System",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "4",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "ProLiant DL580 Gen9"
+                        },
+                        "Processor": "1 x ProLiant DL580 Gen9 2P",
+                        "ProcessorDetails": "Intel Hexadeca  Core\n                                      2.2GHz / 40MB Cache",
+                        "Memory": "64 GB  RAM",
+                        "NSSShared": "",
+                        "Storage": "GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (0 - Ports)"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

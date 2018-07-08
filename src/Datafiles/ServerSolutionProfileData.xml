@@ -1,0 +1,1049 @@
+<ServerSolutionData>
+     <SolutionProfiles>
+         <SolutionProfile Name = "Recommended">
+         <ReasoningText>For maximum availability and performance, this solution features maximum redundancy and performance headroom in a single server.</ReasoningText>
+         <SystemModel>1</SystemModel>
+         <SupportedModels>121</SupportedModels>
+         <SupportedBuyingModels>3</SupportedBuyingModels>
+         <ConfigurationType>1</ConfigurationType>
+         <MemoryConfigType>1</MemoryConfigType>
+         <RibOption>1</RibOption>
+         <TapeOption>2</TapeOption>
+         <TapeFailOption>1</TapeFailOption>
+         <NicOption>1</NicOption>
+         <AccOption>1</AccOption>
+         <StorageOption>1</StorageOption>
+         <SWDDASStorageOption>1</SWDDASStorageOption>
+         <ReservedSlots>0</ReservedSlots>
+         <SortSol>Server</SortSol>
+         <RedCoolingFans>1</RedCoolingFans>
+         <RedPowerSupplies>2</RedPowerSupplies>
+         <FabricAvailability>Normal</FabricAvailability>
+         <PMP>1</PMP>
+             <OnlineSpare>
+                 <Volume Name = "System / Page File">0</Volume>
+                 <Volume Name = "Transaction Logs/Databases">0</Volume>
+                 <Volume Name = "Transaction Logs">0</Volume>
+                 <Volume Name = "Databases">0</Volume>
+                 <Volume Name = "Restore LUN">0</Volume>
+                 <Volume Name = "Backup">0</Volume>
+                 <Volume Name = "System/Pagefile/TMP/Logs">0</Volume>
+                 <Volume Name = "System/Page File/TMP">0</Volume>
+                 <Volume Name = "Hub Queue Databases/Logs">0</Volume>
+                 <Volume Name = "Transport Queue Database">0</Volume>
+                 <Volume Name = "Edge Queue Databases/Logs">0</Volume>
+             </OnlineSpare>
+         <SharedOnlineSpare>1</SharedOnlineSpare>
+         <ProtectionLevel>0</ProtectionLevel>
+         <BackupCategory>Better</BackupCategory>
+         <BackupMode>1</BackupMode>
+      <SolutionProfileRoles>
+         <SolutionProfileRole RoleName = "Mailbox (log and database isolated) server">
+             <ServerFamilies>
+                <ServerFamily>Synergy 480 Gen9 Server</ServerFamily>
+                <ServerFamily>Synergy 480 Gen10 Server</ServerFamily>
+                <ServerFamily>Synergy 620 Gen9 Server</ServerFamily>
+                <ServerFamily>HP Apollo 4200 Gen9 Server</ServerFamily>
+                <ServerFamily>HP Apollo 4500 System</ServerFamily>
+                <ServerFamily>HPE Apollo 4500 Gen10 System</ServerFamily>
+                <ServerFamily>ProLiant BL460c Gen9 Server</ServerFamily>
+                <ServerFamily>ProLiant BL460c Gen10 Server</ServerFamily>
+                <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL360 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL360 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL380 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL380 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL385 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML350 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML350 Gen10</ServerFamily>
+             </ServerFamilies>
+             <ServerFamiliesExcludedFromInitialSize>
+                <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+             </ServerFamiliesExcludedFromInitialSize>
+         </SolutionProfileRole>
+         <SolutionProfileRole RoleName = "Mailbox (log and database combined) server">
+             <ServerFamilies>
+                <ServerFamily>Synergy 480 Gen9 Server</ServerFamily>
+                <ServerFamily>Synergy 480 Gen10 Server</ServerFamily>
+                <ServerFamily>Synergy 620 Gen9 Server</ServerFamily>
+                <ServerFamily>HP Apollo 4200 Gen9 Server</ServerFamily>
+                <ServerFamily>HP Apollo 4500 System</ServerFamily>
+                <ServerFamily>HPE Apollo 4500 Gen10 System</ServerFamily>
+                <ServerFamily>ProLiant BL460c Gen9 Server</ServerFamily>
+                <ServerFamily>ProLiant BL460c Gen10 Server</ServerFamily>
+                <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL360 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL360 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL380 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL380 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL385 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML350 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML350 Gen10</ServerFamily>
+             </ServerFamilies>
+             <ServerFamiliesExcludedFromInitialSize>
+                <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+             </ServerFamiliesExcludedFromInitialSize>
+         </SolutionProfileRole>
+         <SolutionProfileRole RoleName = "Physical Host server">
+             <ServerFamilies>
+                <ServerFamily>Synergy 480 Gen9 Server</ServerFamily>
+                <ServerFamily>Synergy 480 Gen10 Server</ServerFamily>
+                <ServerFamily>Synergy 620 Gen9 Server</ServerFamily>
+                <ServerFamily>HP Apollo 4200 Gen9 Server</ServerFamily>
+                <ServerFamily>HP Apollo 4500 System</ServerFamily>
+                <ServerFamily>HPE Apollo 4500 Gen10 System</ServerFamily>
+                <ServerFamily>ProLiant BL460c Gen9 Server</ServerFamily>
+                <ServerFamily>ProLiant BL460c Gen10 Server</ServerFamily>
+                <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL360 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL360 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL380 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL380 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL385 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML350 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML350 Gen10</ServerFamily>
+             </ServerFamilies>
+             <ServerFamiliesExcludedFromInitialSize>
+                <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+             </ServerFamiliesExcludedFromInitialSize>
+         </SolutionProfileRole>
+         <SolutionProfileRole RoleName = "Other Role server">
+             <ServerFamilies>
+                <ServerFamily>Synergy 480 Gen9 Server</ServerFamily>
+                <ServerFamily>Synergy 480 Gen10 Server</ServerFamily>
+                <ServerFamily>Synergy 620 Gen9 Server</ServerFamily>
+                <ServerFamily>HP Apollo 4200 Gen9 Server</ServerFamily>
+                <ServerFamily>HP Apollo 4500 System</ServerFamily>
+                <ServerFamily>HPE Apollo 4500 Gen10 System</ServerFamily>
+                <ServerFamily>ProLiant BL460c Gen9 Server</ServerFamily>
+                <ServerFamily>ProLiant BL460c Gen10 Server</ServerFamily>
+                <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL360 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL360 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL380 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL380 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL385 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML350 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML350 Gen10</ServerFamily>
+             </ServerFamilies>
+             <ServerFamiliesExcludedFromInitialSize>
+                <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+             </ServerFamiliesExcludedFromInitialSize>
+         </SolutionProfileRole>
+         <SolutionProfileRole RoleName = "Edge Transport server">
+             <ServerFamilies>
+                <ServerFamily>Synergy 480 Gen9 Server</ServerFamily>
+                <ServerFamily>Synergy 480 Gen10 Server</ServerFamily>
+                <ServerFamily>Synergy 620 Gen9 Server</ServerFamily>
+                <ServerFamily>HP Apollo 4200 Gen9 Server</ServerFamily>
+                <ServerFamily>HP Apollo 4500 System</ServerFamily>
+                <ServerFamily>HPE Apollo 4500 Gen10 System</ServerFamily>
+                <ServerFamily>ProLiant BL460c Gen9 Server</ServerFamily>
+                <ServerFamily>ProLiant BL460c Gen10 Server</ServerFamily>
+                <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL360 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL360 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL380 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL380 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL385 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML350 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML350 Gen10</ServerFamily>    
+             </ServerFamilies>
+             <ServerFamiliesExcludedFromInitialSize>
+                <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+                <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+                <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+                <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+                <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+             </ServerFamiliesExcludedFromInitialSize>
+         </SolutionProfileRole>
+      </SolutionProfileRoles>
+      </SolutionProfile>
+       <SolutionProfile Name = "ConvergedSystem">
+         <SolutionType>ConvergedSystem</SolutionType>
+         <ReasoningText>For maximum availability and performance, this solution features maximum redundancy and performance headroom in a single server.</ReasoningText>
+         <SystemModel>1</SystemModel>
+         <SupportedModels>121</SupportedModels>
+         <SupportedBuyingModels>3</SupportedBuyingModels>
+         <ConfigurationType>1</ConfigurationType>
+         <MemoryConfigType>1</MemoryConfigType>
+         <RibOption>1</RibOption>
+         <TapeOption>2</TapeOption>
+         <TapeFailOption>1</TapeFailOption>
+         <NicOption>1</NicOption>
+         <AccOption>1</AccOption>
+         <StorageOption>1</StorageOption>
+         <SWDDASStorageOption>1</SWDDASStorageOption>
+         <ReservedSlots>0</ReservedSlots>
+         <SortSol>Server</SortSol>
+         <RedCoolingFans>1</RedCoolingFans>
+         <RedPowerSupplies>2</RedPowerSupplies>
+         <FabricAvailability>Normal</FabricAvailability>
+         <PMP>1</PMP>
+         <OnlineSpare>
+           <Volume Name = "System / Page File">0</Volume>
+           <Volume Name = "Transaction Logs/Databases">0</Volume>
+           <Volume Name = "Transaction Logs">0</Volume>
+           <Volume Name = "Databases">0</Volume>
+           <Volume Name = "Restore LUN">0</Volume>
+           <Volume Name = "Backup">0</Volume>
+           <Volume Name = "System/Pagefile/TMP/Logs">0</Volume>
+           <Volume Name = "System/Page File/TMP">0</Volume>
+           <Volume Name = "Hub Queue Databases/Logs">0</Volume>
+           <Volume Name = "Transport Queue Database">0</Volume>
+           <Volume Name = "Edge Queue Databases/Logs">0</Volume>
+         </OnlineSpare>
+         <SharedOnlineSpare>1</SharedOnlineSpare>
+         <ProtectionLevel>0</ProtectionLevel>
+         <BackupCategory>Better</BackupCategory>
+         <BackupMode>1</BackupMode>
+         <SolutionProfileRoles>
+           <SolutionProfileRole RoleName = "Mailbox (log and database isolated) server">
+             <ServerFamilies>
+               <ServerFamily>Synergy 480 Gen9 Server</ServerFamily>
+               <ServerFamily>Synergy 480 Gen10 Server</ServerFamily>
+               <ServerFamily>Synergy 480 Gen10 Server</ServerFamily>
+               <ServerFamily>HP Apollo 4200 Gen9 Server</ServerFamily>
+               <ServerFamily>HP Apollo 4500 System</ServerFamily>
+               <ServerFamily>HPE Apollo 4500 Gen10 System</ServerFamily>
+               <ServerFamily>ProLiant BL460c Gen9 Server</ServerFamily>
+               <ServerFamily>ProLiant BL460c Gen10 Server</ServerFamily>
+               <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL360 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL360 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL380 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL380 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL385 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML350 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML350 Gen10</ServerFamily>
+             </ServerFamilies>
+             <ServerFamiliesExcludedFromInitialSize>
+               <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+             </ServerFamiliesExcludedFromInitialSize>
+           </SolutionProfileRole>
+           <SolutionProfileRole RoleName = "Mailbox (log and database combined) server">
+             <ServerFamilies>
+               <ServerFamily>Synergy 480 Gen9 Server</ServerFamily>
+               <ServerFamily>Synergy 480 Gen10 Server</ServerFamily>
+               <ServerFamily>HP Apollo 4200 Gen9 Server</ServerFamily>
+               <ServerFamily>HP Apollo 4500 System</ServerFamily>
+               <ServerFamily>HPE Apollo 4500 Gen10 System</ServerFamily>
+               <ServerFamily>ProLiant BL460c Gen9 Server</ServerFamily>
+               <ServerFamily>ProLiant BL460c Gen10 Server</ServerFamily>
+               <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL360 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL360 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL380 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL380 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL385 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML350 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML350 Gen10</ServerFamily>
+             </ServerFamilies>
+             <ServerFamiliesExcludedFromInitialSize>
+               <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+             </ServerFamiliesExcludedFromInitialSize>
+           </SolutionProfileRole>
+           <SolutionProfileRole RoleName = "Physical Host server">
+             <ServerFamilies>
+               <ServerFamily>Synergy 480 Gen9 Server</ServerFamily>
+               <ServerFamily>Synergy 480 Gen10 Server</ServerFamily>
+               <ServerFamily>HP Apollo 4200 Gen9 Server</ServerFamily>
+               <ServerFamily>HP Apollo 4500 System</ServerFamily>
+               <ServerFamily>HPE Apollo 4500 Gen10 System</ServerFamily>
+               <ServerFamily>ProLiant BL460c Gen9 Server</ServerFamily>
+               <ServerFamily>ProLiant BL460c Gen10 Server</ServerFamily>
+               <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL360 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL360 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL380 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL380 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL385 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML350 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML350 Gen10</ServerFamily>
+             </ServerFamilies>
+             <ServerFamiliesExcludedFromInitialSize>
+               <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+             </ServerFamiliesExcludedFromInitialSize>
+           </SolutionProfileRole>
+           <SolutionProfileRole RoleName = "Other Role server">
+             <ServerFamilies>
+               <ServerFamily>Synergy 480 Gen9 Server</ServerFamily>
+               <ServerFamily>Synergy 480 Gen10 Server</ServerFamily>
+               <ServerFamily>HP Apollo 4200 Gen9 Server</ServerFamily>
+               <ServerFamily>HP Apollo 4500 System</ServerFamily>
+               <ServerFamily>HPE Apollo 4500 Gen10 System</ServerFamily>
+               <ServerFamily>ProLiant BL460c Gen9 Server</ServerFamily>
+               <ServerFamily>ProLiant BL460c Gen10 Server</ServerFamily>
+               <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL360 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL360 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL380 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL380 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL385 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML350 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML350 Gen10</ServerFamily>
+             </ServerFamilies>
+             <ServerFamiliesExcludedFromInitialSize>
+               <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+             </ServerFamiliesExcludedFromInitialSize>
+           </SolutionProfileRole>
+           <SolutionProfileRole RoleName = "Edge Transport server">
+             <ServerFamilies>
+               <ServerFamily>Synergy 480 Gen9 Server</ServerFamily>
+               <ServerFamily>Synergy 480 Gen10 Server</ServerFamily>
+               <ServerFamily>HP Apollo 4200 Gen9 Server</ServerFamily>
+               <ServerFamily>HP Apollo 4500 System</ServerFamily>
+               <ServerFamily>HPE Apollo 4500 Gen10 System</ServerFamily>
+               <ServerFamily>ProLiant BL460c Gen9 Server</ServerFamily>
+               <ServerFamily>ProLiant BL460c Gen10 Server</ServerFamily>
+               <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL360 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL360 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL380 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL380 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL385 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML350 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML350 Gen10</ServerFamily>
+             </ServerFamilies>
+             <ServerFamiliesExcludedFromInitialSize>
+               <ServerFamily>ProLiant BL660c Gen9 Server</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL120 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL60 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL160 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL80 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL180 Gen10</ServerFamily>
+               <ServerFamily>ProLiant DL560 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen9</ServerFamily>
+               <ServerFamily>ProLiant DL580 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen9</ServerFamily>
+               <ServerFamily>ProLiant ML110 Gen10</ServerFamily>
+               <ServerFamily>ProLiant ML150 Gen9</ServerFamily>
+             </ServerFamiliesExcludedFromInitialSize>
+           </SolutionProfileRole>
+         </SolutionProfileRoles>
+       </SolutionProfile>
+      </SolutionProfiles>
+<ServerFamilies>
+   <ServerFamily Name = "Synergy 480 Gen9 Server">
+      <MaxUsersExchange2016>323232</MaxUsersExchange2016>
+      <MaxProcSpeed>3500</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>3072</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>SY</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "2" LFF = "0">2</InternalDrives>
+      <ExpansionSlots  Slot1 = "2097152" Slot2 = "-1" Slot3 = "-1">3</ExpansionSlots>
+      <Rating SB = "2" MM = "2" Ent = "2"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "Synergy 480 Gen10 Server">
+      <MaxUsersExchange2016>994560</MaxUsersExchange2016>
+      <MaxProcSpeed>3600</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>1</Group>
+      <MaxRAM>1536</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>SY</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "2" LFF = "0">2</InternalDrives>
+      <ExpansionSlots  Slot1 = "4194304" Slot2 = "-1" Slot3 = "-1">3</ExpansionSlots>
+      <Rating SB = "1" MM = "1" Ent = "1"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "Synergy 620 Gen9 Server">
+      <MaxUsersExchange2016>325008</MaxUsersExchange2016>
+      <MaxProcSpeed>3200</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>3072</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>SY</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "2" LFF = "0">2</InternalDrives>
+      <ExpansionSlots  Slot1 = "2097152" Slot2 = "-1" Slot3 = "-1">3</ExpansionSlots>
+      <Rating SB = "2" MM = "2" Ent = "2"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "HP Apollo 4200 Gen9 Server">
+      <MaxUsersExchange2016>313464</MaxUsersExchange2016>
+      <MaxProcSpeed>3500</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>1</Group>
+      <MaxRAM>512</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>XL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "50" LFF = "28">50</InternalDrives>
+      <ExpansionSlots  Slot1 = "-1" Slot2 = "393216" Slot3 = "393216" Slot4 = "393216" Slot5 = "393216" Slot6 = "393216" Slot7 = "393216">7</ExpansionSlots>
+      <Rating SB = "1" MM = "2" Ent = "3"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "HP Apollo 4500 System">
+      <MaxUsersExchange2016>313464</MaxUsersExchange2016>
+      <MaxProcSpeed>2600</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>1</Group>
+      <MaxRAM>1024</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>XL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "2" LFF = "0">2</InternalDrives>
+      <ExpansionSlots  Slot1 = "-1" Slot2 = "1572864" Slot3 = "1572864" Slot4 = "1572864">4</ExpansionSlots>
+      <Rating SB = "1" MM = "2" Ent = "3"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "HPE Apollo 4500 Gen10 System">
+      <MaxUsersExchange2016>403152</MaxUsersExchange2016>
+      <MaxProcSpeed>3600</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>1</Group>
+      <MaxRAM>1024</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>XL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "2" LFF = "0">2</InternalDrives>
+      <ExpansionSlots  Slot1 = "-1" Slot2 = "100663296" Slot3 = "100663296" Slot4 = "100663296">4</ExpansionSlots>
+      <Rating SB = "1" MM = "2" Ent = "3"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant BL460c Gen9 Server">
+      <MaxUsersExchange2016>313464</MaxUsersExchange2016>
+      <MaxProcSpeed>3500</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>2048</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>BL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "2" LFF = "0">2</InternalDrives>
+      <ExpansionSlots  Slot1 = "33792" Slot2 = "-1">2</ExpansionSlots>
+      <Rating SB = "3" MM = "3" Ent = "2"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant BL460c Gen10 Server">
+      <MaxUsersExchange2016>403152</MaxUsersExchange2016>
+      <MaxProcSpeed>3600</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>1</Group>
+      <MaxRAM>1024</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>BL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "2" LFF = "0">2</InternalDrives>
+      <ExpansionSlots  Slot1 = "33792" Slot2 = "-1">2</ExpansionSlots>
+      <Rating SB = "3" MM = "3" Ent = "1"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant BL660c Gen9 Server">
+      <MaxUsersExchange2016>488400</MaxUsersExchange2016>
+      <MaxProcSpeed>2900</MaxProcSpeed>
+      <MaxProcs>4</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>4096</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>BL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "4" LFF = "0">4</InternalDrives>
+      <ExpansionSlots  Slot1 = "33792" Slot2 = "-1" Slot3 = "-1">3</ExpansionSlots>
+      <Rating SB = "4" MM = "4" Ent = "2"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL120 Gen9">
+      <MaxUsersExchange2016>62693</MaxUsersExchange2016>
+      <MaxProcSpeed>2600</MaxProcSpeed>
+      <MaxProcs>1</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>256</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>False</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "8" LFF = "4">8</InternalDrives>
+      <ExpansionSlots  Slot1 = "393216" Slot2 = "393216" Slot3 = "-1">3</ExpansionSlots>
+      <Rating SB = "3" MM = "2" Ent = "5"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL120 Gen10">
+      <MaxUsersExchange2016>109402</MaxUsersExchange2016>
+      <MaxProcSpeed>3600</MaxProcSpeed>
+      <MaxProcs>1</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>512</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>False</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "10" LFF = "4">10</InternalDrives>
+      <ExpansionSlots  Slot1 = "25165824" Slot2 = "25165824" Slot3 = "-1">3</ExpansionSlots>
+      <Rating SB = "3" MM = "2" Ent = "5"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL60 Gen9">
+      <MaxUsersExchange2016>202464</MaxUsersExchange2016>
+      <MaxProcSpeed>2600</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>256</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "0" LFF = "4">4</InternalDrives>
+      <ExpansionSlots  Slot1 = "131072" Slot2 = "131072" Slot3 = "-1">3</ExpansionSlots>
+      <Rating SB = "3" MM = "2" Ent = "5"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL160 Gen9">
+      <MaxUsersExchange2016>104784</MaxUsersExchange2016>
+      <MaxProcSpeed>2600</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>512</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "8" LFF = "4">8</InternalDrives>
+      <ExpansionSlots  Slot1 = "393216" Slot2 = "393216" Slot3 = "393216" Slot4 = "393216" Slot5 = "393216">5</ExpansionSlots>
+      <Rating SB = "3" MM = "2" Ent = "5"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL160 Gen10">
+      <MaxUsersExchange2016>161261</MaxUsersExchange2016>
+      <MaxProcSpeed>3600</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>1024</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "10" LFF = "4">10</InternalDrives>
+      <ExpansionSlots  Slot1 = "25165824" Slot2 = "25165824" Slot3 = "25165824">3</ExpansionSlots>
+      <Rating SB = "3" MM = "2" Ent = "5"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL80 Gen9">
+      <MaxUsersExchange2016>202464</MaxUsersExchange2016>
+      <MaxProcSpeed>2600</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>256</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "0" LFF = "8">8</InternalDrives>
+      <ExpansionSlots  Slot1 = "131072" Slot2 = "131072" Slot3 = "131072" Slot4 = "131072" Slot5 = "131072" Slot6 = "-1">6</ExpansionSlots>
+      <Rating SB = "3" MM = "2" Ent = "5"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL180 Gen9">
+      <MaxUsersExchange2016>104784</MaxUsersExchange2016>
+      <MaxProcSpeed>2600</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>512</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "8" LFF = "12">12</InternalDrives>
+      <ExpansionSlots  Slot1 = "393216" Slot2 = "393216" Slot3 = "393216" Slot4 = "393216" Slot5 = "-1" Slot6 = "-1">6</ExpansionSlots>
+      <Rating SB = "3" MM = "2" Ent = "5"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL180 Gen10">
+      <MaxUsersExchange2016>161261</MaxUsersExchange2016>
+      <MaxProcSpeed>3600</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>1024</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "24" LFF = "12">24</InternalDrives>
+      <ExpansionSlots  Slot1 = "25165824" Slot2 = "25165824" Slot3 = "25165824" Slot4 = "25165824" Slot5 = "-1" Slot6 = "-1">6</ExpansionSlots>
+      <Rating SB = "3" MM = "2" Ent = "5"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL360 Gen9">
+      <MaxUsersExchange2016>323232</MaxUsersExchange2016>
+      <MaxProcSpeed>3500</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>768</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "10" LFF = "4">10</InternalDrives>
+      <ExpansionSlots  Slot1 = "393216" Slot2 = "393216" Slot3 = "-1">3</ExpansionSlots>
+      <Rating SB = "3" MM = "2" Ent = "2"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL360 Gen10">
+      <MaxUsersExchange2016>994560</MaxUsersExchange2016>
+      <MaxProcSpeed>3600</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>1</Group>
+      <MaxRAM>1536</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "16" LFF = "4">16</InternalDrives>
+      <ExpansionSlots  Slot1 = "25165824" Slot2 = "-1">2</ExpansionSlots>
+      <Rating SB = "2" MM = "1" Ent = "1"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL380 Gen9">
+      <MaxUsersExchange2016>323232</MaxUsersExchange2016>
+      <MaxProcSpeed>3500</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>768</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "26" LFF = "15">26</InternalDrives>
+      <ExpansionSlots  Slot1 = "393216" Slot2 = "393216" Slot3 = "393216" Slot4 = "393216" Slot5 = "-1">5</ExpansionSlots>
+      <Rating SB = "3" MM = "2" Ent = "2"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL380 Gen10">
+      <MaxUsersExchange2016>994560</MaxUsersExchange2016>
+      <MaxProcSpeed>3900</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>1</Group>
+      <MaxRAM>3072</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "28" LFF = "16">28</InternalDrives>
+      <ExpansionSlots  Slot1 = "25165824" Slot2 = "25165824" Slot3 = "-1">3</ExpansionSlots>
+      <Rating SB = "2" MM = "1" Ent = "1"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL385 Gen10">
+      <MaxUsersExchange2016>426240</MaxUsersExchange2016>
+      <MaxProcSpeed>2400</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>1</Group>
+      <MaxRAM>4096</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>AMD</CpuVendor>
+      <InternalDrives SFF = "26" LFF = "16">26</InternalDrives>
+      <ExpansionSlots  Slot1 = "25165824" Slot2 = "25165824" Slot3 = "25165824">3</ExpansionSlots>
+      <Rating SB = "2" MM = "1" Ent = "1"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL560 Gen9">
+      <MaxUsersExchange2016>488400</MaxUsersExchange2016>
+      <MaxProcSpeed>2900</MaxProcSpeed>
+      <MaxProcs>4</MaxProcs>
+      <Group>3</Group>
+      <MaxRAM>6144</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "24" LFF = "0">24</InternalDrives>
+      <ExpansionSlots  Slot1 = "393216" Slot2 = "393216" Slot3 = "393216" Slot4 = "393216" Slot5 = "393216" Slot6 = "393216" Slot7 = "393216">7</ExpansionSlots>
+      <Rating SB = "4" MM = "3" Ent = "1"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL580 Gen9">
+      <MaxUsersExchange2016>650016</MaxUsersExchange2016>
+      <MaxProcSpeed>3200</MaxProcSpeed>
+      <MaxProcs>4</MaxProcs>
+      <Group>3</Group>
+      <MaxRAM>12288</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "10" LFF = "0">10</InternalDrives>
+      <ExpansionSlots  Slot1 = "131072" Slot2 = "131072" Slot3 = "131072" Slot4 = "131072" Slot5 = "131072" Slot6 = "131072" Slot7 = "131072" Slot8 = "131072" Slot9 = "131072">9</ExpansionSlots>
+      <Rating SB = "4" MM = "3" Ent = "1"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant DL580 Gen10">
+      <MaxUsersExchange2016>1989120</MaxUsersExchange2016>
+      <MaxProcSpeed>3600</MaxProcSpeed>
+      <MaxProcs>4</MaxProcs>
+      <Group>3</Group>
+      <MaxRAM>3072</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>DL</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "48" LFF = "0">48</InternalDrives>
+      <ExpansionSlots  Slot1 = "8388608" Slot2 = "8388608" Slot3 = "8388608" Slot4 = "8388608" Slot5 = "8388608" Slot6 = "8388608" Slot7 = "8388608" Slot8 = "8388608" Slot9 = "8388608" Slot10 = "8388608" Slot11 = "8388608" Slot12 = "8388608" Slot13 = "8388608" Slot14 = "8388608" Slot15 = "8388608" Slot16 = "8388608">16</ExpansionSlots>
+      <Rating SB = "4" MM = "3" Ent = "1"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant ML110 Gen9">
+      <MaxUsersExchange2016>40493</MaxUsersExchange2016>
+      <MaxProcSpeed>3500</MaxProcSpeed>
+      <MaxProcs>1</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>256</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>ML</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "16" LFF = "8">16</InternalDrives>
+      <ExpansionSlots  Slot1 = "131072" Slot2 = "131072" Slot3 = "131072" Slot4 = "131072" Slot5 = "-1">5</ExpansionSlots>
+      <Rating SB = "3" MM = "2" Ent = "5"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant ML110 Gen10">
+      <MaxUsersExchange2016>94696</MaxUsersExchange2016>
+      <MaxProcSpeed>3600</MaxProcSpeed>
+      <MaxProcs>1</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>192</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>ML</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "16" LFF = "8">16</InternalDrives>
+      <ExpansionSlots  Slot1 = "8388608" Slot2 = "8388608" Slot3 = "8388608" Slot4 = "8388608" Slot5 = "-1">5</ExpansionSlots>
+      <Rating SB = "3" MM = "2" Ent = "5"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant ML150 Gen9">
+      <MaxUsersExchange2016>104784</MaxUsersExchange2016>
+      <MaxProcSpeed>2400</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>2</Group>
+      <MaxRAM>512</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>ML</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "16" LFF = "8">16</InternalDrives>
+      <ExpansionSlots  Slot1 = "131072" Slot2 = "131072" Slot3 = "131072" Slot4 = "131072" Slot5 = "131072" Slot6 = "-1">6</ExpansionSlots>
+      <Rating SB = "3" MM = "2" Ent = "5"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant ML350 Gen9">
+      <MaxUsersExchange2016>313464</MaxUsersExchange2016>
+      <MaxProcSpeed>3500</MaxProcSpeed>
+      <MaxProcs>2</MaxProcs>
+      <Group>1</Group>
+      <MaxRAM>768</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>ML</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "24" LFF = "24">24</InternalDrives>
+      <ExpansionSlots  Slot1 = "393216" Slot2 = "393216" Slot3 = "393216" Slot4 = "393216" Slot5 = "393216" Slot6 = "393216" Slot7 = "393216" Slot8 = "393216" Slot9 = "393216">9</ExpansionSlots>
+      <Rating SB = "1" MM = "2" Ent = "3"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+   <ServerFamily Name = "ProLiant ML350 Gen10">
+      <MaxUsersExchange2016>1094016</MaxUsersExchange2016>
+      <MaxProcSpeed>3600</MaxProcSpeed>
+      <MaxProcs>4</MaxProcs>
+      <Group>1</Group>
+      <MaxRAM>1536</MaxRAM>
+      <HyperThreaded>False</HyperThreaded>
+      <MemoryDependsOnProc>True</MemoryDependsOnProc>
+      <SrvrModelOpt>ML</SrvrModelOpt>
+      <CpuVendor>Intel</CpuVendor>
+      <InternalDrives SFF = "16" LFF = "8">16</InternalDrives>
+      <ExpansionSlots  Slot1 = "25165824" Slot2 = "25165824" Slot3 = "25165824" Slot4 = "25165824" Slot5 = "25165824" Slot6 = "25165824" Slot7 = "25165824" Slot8 = "25165824">8</ExpansionSlots>
+      <Rating SB = "1" MM = "2" Ent = "3"/>
+      <MSA2000saSupported>True</MSA2000saSupported>
+      <LowPowerDIMMSupported>True</LowPowerDIMMSupported>
+   </ServerFamily>
+</ServerFamilies>
+</ServerSolutionData>

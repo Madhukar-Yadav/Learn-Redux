@@ -1,0 +1,156 @@
+{
+    "Solutions": {
+        "@PriceList": "4/1/2018 12:00:00 AM",
+        "@TreeView": "1",
+        "@ETSEVersion": "18.8.0",
+        "@Country": "Switzerland",
+        "@Currency": "SF",
+        "Solution": {
+            "@ID": "1",
+            "@Customizable": "1",
+            "@FirstRole": "Production System",
+            "SolutionsArchitecture": "Architecture",
+            "ResoningText": "",
+            "SolProfile": {
+                "@ID": "1",
+                "#text": "Recommended"
+            },
+            "NoOfSolutionWithAsterisk": "0",
+            "SolPrice": "407,934",
+            "TotalPrice": "407,934",
+            "Roles": {
+                "@FirstRole": "Production System",
+                "Role": [
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "Production System",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "HPE ConvergedSystem 500 for SAP HANA Compute Node"
+                        },
+                        "HANA": "true",
+                        "Processor": "1 x HPE ConvergedSystem 500 for SAP HANA Compute Node",
+                        "ProcessorDetails": "Processor: 2 x HP DL580 Gen9 Intel® Xeon® E7-8890v4 (2.2GHz/24-core/165W) Processor Kit",
+                        "Memory": "Memory: 24 x HP 64GB (1x64GB) Quad Rank x4 DDR4-2133 CAS-15-15-15 Load Reduced Memory Kit",
+                        "NSSShared": "",
+                        "Storage": "Storage: 1 x HPE SAP HANA Scale-up Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (0 - Ports) "
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "Non-Production Systems(Test/QA)",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "HPE ConvergedSystem 500 for SAP HANA Compute Node"
+                        },
+                        "HANA": "true",
+                        "Processor": "1 x HPE ConvergedSystem 500 for SAP HANA Compute Node",
+                        "ProcessorDetails": "Processor: 4 x HP DL580 Gen9 Intel® Xeon® E7-8880v4 (2.2GHz/22-core/150W) Processor Kit",
+                        "Memory": "Memory: 24 x HP 64GB (1x64GB) Quad Rank x4 DDR4-2133 CAS-15-15-15 Load Reduced Memory Kit",
+                        "NSSShared": "",
+                        "Storage": "Storage: 1 x HPE SAP HANA Scale-up Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (0 - Ports) "
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "Non-Production Systems(Development)",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "HPE ConvergedSystem 500 for SAP HANA Compute Node"
+                        },
+                        "HANA": "true",
+                        "Processor": "1 x HPE ConvergedSystem 500 for SAP HANA Compute Node",
+                        "ProcessorDetails": "Processor: 4 x HP DL580 Gen9 Intel® Xeon® E7-8880v4 (2.2GHz/22-core/150W) Processor Kit",
+                        "Memory": "Memory: 16 x HP 64GB (1x64GB) Quad Rank x4 DDR4-2133 CAS-15-15-15 Load Reduced Memory Kit",
+                        "NSSShared": "",
+                        "Storage": "Storage: 1 x HPE SAP HANA Scale-up Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (0 - Ports) "
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "Non-Production Systems(SandBox)",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "HPE ConvergedSystem 500 for SAP HANA Compute Node"
+                        },
+                        "HANA": "true",
+                        "Processor": "1 x HPE ConvergedSystem 500 for SAP HANA Compute Node",
+                        "ProcessorDetails": "Processor: 4 x HP DL580 Gen9 Intel® Xeon® E7-8880v4 (2.2GHz/22-core/150W) Processor Kit",
+                        "Memory": "Memory: 32 x HP 64GB (1x64GB) Quad Rank x4 DDR4-2133 CAS-15-15-15 Load Reduced Memory Kit",
+                        "NSSShared": "",
+                        "Storage": "Storage: 1 x HPE SAP HANA Scale-up Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (0 - Ports) "
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

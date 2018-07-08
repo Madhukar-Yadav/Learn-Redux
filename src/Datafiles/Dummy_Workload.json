@@ -1,0 +1,84 @@
+{
+   "WorkLoad": {
+        "UserInputs": {
+            "Environments": {
+                "CustomerInfo": {
+                    "CompanyName": [],
+                    "ProjectManagerEMail": [],
+                    "ProjectManagerName": []
+                },
+                "OtherEnvironments": {
+                    "@Selected": "",
+                    "Caption1": [],
+                    "Caption2": [],
+                    "Caption3": [],
+                    "CombinedDB": {
+                    "@selected": "False",
+                    "CombinedDB": [],
+                    "CombinedDBSize": [],
+                    "CombinedHANA": [],
+                    "Combinedsystems": [],
+                    "VirtualHanaSelected": "False",
+                    "v1": "False",
+                    "v2": "False",
+                    "v3": "False"
+                    },
+                    "DBStack": {
+                    "rbTest1": [],
+                    "rbTest2": [],
+                    "rbTest3": [],
+                    "rdDev1": [],
+                    "rdDev2": [],
+                    "rdDev3": [],
+                    "rdSB1": [],
+                    "rdSB2": [],
+                    "rdSB3": []
+                    },
+                    "Dev": {
+                    "@dedicated": "False",
+                    "DevDB": [],
+                    "DevDBSize": "0",
+                    "DevHana": [],
+                    "Devselected": "False"
+                    },
+                    "SandBox": {
+                    "@dedicated": "False",
+                    "SandBoxDB": [],
+                    "SandBoxDBSize": "0",
+                    "SandBoxHana": [],
+                    "SandBoxselected": "False"
+                    },
+                    "TestQA": {
+                    "@dedicated": "False",
+                    "TestHana": [],
+                    "TestQADB": [],
+                    "TestQADBSize": "0",
+                    "TestQAselected": "False"
+                    },
+                    "TotalDBPercent": [],
+                    "TotalDBSize": []
+                },
+                "ProductionEnvironment": {
+                    "Architecture": "1",
+                    "DTselected": "False",
+                    "DataBaseSize": "1",
+                    "EPH": "EHP6",
+                    "GrowthYears": "1",
+                    "MemorySize": "1",
+                    "Name": "Production Environment",
+                    "NoOfUsersFromSAP": [],
+                    "OS": "SUSE Linux",
+                    "ProdHanaSelected": [],
+                    "SAPSCalculated": "-1",
+                    "SAPSpecified": "500",
+                    "System": "1",
+                    "YearlyGrowth": "10%"
+                },
+                "Version": "18.8",
+                "email": "ese_aa_solutions@hp.com",
+                "url": "http://h71028.www7.hp.com/enterprise/cache/11813-0-0-0-121.html"
+            }
+        },
+        "strSizerName": "SAP HANA Sizing Tool"
+        }
+}

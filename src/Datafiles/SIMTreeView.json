@@ -1,0 +1,152 @@
+{
+    "Solutions": {
+        "@PriceList": "4/1/2018 12:00:00 AM",
+        "@TreeView": "1",
+        "@ETSEVersion": "18.8.0",
+        "@Country": "United States",
+        "@Currency": "UD",
+        "Solution": {
+            "@ID": "1",
+            "@Customizable": "1",
+            "@FirstRole": "SIM Server",
+            "RackSelected": {
+                "@SiteName": "",
+                "@MaxPower": "",
+                "@MaxWeight": "",
+                "@Qty": "1",
+                "@RackType": "22U",
+                "@Price": "1479",
+                "@PartNumber": "AF021A",
+                "@Description": "HPE 10622 G2 Pallet Universal Rack",
+                "@CompDesc": "1 x HPE 10622 G2 Pallet Universal Rack (22U)"
+            },
+            "SolutionsArchitecture": "Multi node solution",
+            "ResoningText": "The recommended server configuration is sized based on current manageable nodes. In order to manage the maximum number of nodes in future, a server has been sized where you can add additional processors and/or memory to accommodate future expansion.",
+            "SolProfile": {
+                "@ID": "1",
+                "#text": "Recommended"
+            },
+            "NoOfSolutionWithAsterisk": "1",
+            "SolPrice": "34,838 *",
+            "TotalPrice": "34,838",
+            "Roles": {
+                "@FirstRole": "SIM Server",
+                "Role": [
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": [],
+                        "RoleName": "SIM Server",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "1",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "ProLiant XL170r Gen9"
+                        },
+                        "BladeEncGR": {
+                            "@BladeShareName": "",
+                            "@Chassis": "true",
+                            "@PartNumber": "798154-B21",
+                            "@BladesPerEnc": "4",
+                            "#text": "HP Apollo r2800 24SFF w/Exp CTO Chassis"
+                        },
+                        "BladeEncGRQty": "1",
+                        "Processor": "1 x ProLiant XL170r Gen9 1P",
+                        "ProcessorDetails": "Intel Deca  Core\n                                      2.2GHz / 25MB Cache",
+                        "Memory": "16 GB  RAM",
+                        "NSSShared": "1",
+                        "Storage": "7,002 GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (2 - Ports)",
+                            "NIC": "1 x HP NC362i Dual Port Gigabit Server Adapter"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": [],
+                        "RoleName": "Database Server",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "1",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "ProLiant XL170r Gen9"
+                        },
+                        "BladeEncGR": {
+                            "@BladeShareName": "",
+                            "@Chassis": "true",
+                            "@PartNumber": "798154-B21",
+                            "@BladesPerEnc": "4",
+                            "#text": "HP Apollo r2800 24SFF w/Exp CTO Chassis"
+                        },
+                        "BladeEncGRQty": "1",
+                        "Processor": "1 x ProLiant XL170r Gen9 1P",
+                        "ProcessorDetails": "Intel Deca  Core\n                                      2.2GHz / 25MB Cache",
+                        "Memory": "16 GB  RAM",
+                        "NSSShared": [],
+                        "Storage": "GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (2 - Ports)",
+                            "NIC": "1 x HP NC362i Dual Port Gigabit Server Adapter"
+                        }
+                    }
+                ],
+                "SharedRole": {
+                    "@Site": "",
+                    "@ParentSite": "",
+                    "@SharedRoles": "SIM Server^Database Server",
+                    "@SiteName": "",
+                    "@DisplayName": "",
+                    "@BranchSitesWithoutHardware": "",
+                    "@RoleSubNode": "",
+                    "@SiteSubNode": "",
+                    "SAN": {
+                        "SAN": "true",
+                        "PerfData": "true",
+                        "StorageBoxes": "1",
+                        "TableData": [
+                            {
+                                "VolumeName": "Install",
+                                "Disk": "300GB 15K FC Disk",
+                                "RaidLevel": "RAID10 1:1",
+                                "DiskQty": "",
+                                "ArrayType": "10400"
+                            },
+                            {
+                                "VolumeName": "Data",
+                                "Disk": "300GB 15K FC Disk",
+                                "RaidLevel": "RAID10 1:1",
+                                "DiskQty": "50",
+                                "ArrayType": "10400"
+                            }
+                        ]
+                    },
+                    "DAS": [],
+                    "RoleName": "SharedSANInfraRole"
+                }
+            }
+        }
+    }
+}

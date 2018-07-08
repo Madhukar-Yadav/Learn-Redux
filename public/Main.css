@@ -1,0 +1,1026 @@
+html,body{
+width:100%;
+height:100%;
+margin:0px;
+padding:0px;
+-webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+}
+#content{
+height:100%;
+}
+
+.HomeScreen{
+    height:90.5%;
+}
+
+.LoadScrTileContainer{
+    max-height: 40%;
+}
+
+.WorkloadItemIcon svg {
+    stroke: #35d4cc;
+}
+
+.SolutionItemIcon svg {
+    stroke: #ff9374;
+}
+
+.ProfileAsign{
+    min-height: 220%;
+    max-height: 400%;
+}
+.ProfAssign td, .ProfAssign th {
+    padding: 1px 8px !important;
+    text-align: left;
+      border: 2px solid #bbbaba;
+}
+.TotalPricelistSunBurst{
+    width:100%;
+}
+td.SitesBoxes {
+    padding: 0px 0px !important;
+}
+.SunBurst{
+    width:100% !important;
+}
+.BtnProfPopup{
+      padding: 1px 22px !important;
+      margin:3px;
+}
+.FormNumInputFiled span.grommetux-button__icon {
+    padding: 5px;
+}
+.InputfiledText{
+    height:23px !important;
+}
+
+.DropdownStyle{
+    max-width :198px;
+}
+
+.DarkHeaderLayer .grommetux-control-icon-close{
+    stroke: #fff !important; 
+}
+
+.headerPart
+{
+height:20%;
+}
+
+.ProgressBarAfter{
+   animation-name: mymove;
+    animation-duration: 4s;
+   animation-iteration-count: 4;
+}
+@keyframes mymove {
+    from { width:20%; }
+    to { width:100%; }
+}
+
+.triangle-up {
+    width: 0px;
+    padding: 6px;
+    height: 0px;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-bottom: 16px solid #fff;
+}
+.triangle-down {
+    width: 0px;
+    padding: 6px;
+    height: 0px;
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
+    border-top: 16px solid #f5f5f5;
+}
+.FooterListItemAlign{
+        border-top: 3px solid #01a982;
+}
+.CloseIconStyle{
+        margin: 3px;
+    width:18px !important;
+    height:18px !important;
+}
+.ListItemAlign ul{
+        border-bottom: 3px solid #01a982;
+}
+.SitesAddIconssec1{
+   margin:0px 4px;padding: 3px 0px;
+   overflow:hidden;
+  
+}
+.SessionOutBtns{
+    margin:2px;
+ padding: 0px !important;
+  min-width: 100px !important ;
+}
+.ListItemAlign ul li, .ListItemAlign1 ul li{
+    padding: 6px;
+}
+.WhatsNewContent{
+    position: absolute;
+    top: 133px;
+    right: 8%;
+    transition: 0.5s ease-in-out;
+}
+.PanelSec2{
+    height:200px;
+}
+.AboutContent{
+   position: absolute;
+   top: 133px;
+   right: 0%;
+   transition: 0.5s ease-in-out;   
+}
+.HOwTOContent{
+    position: absolute;
+    top: 131px;
+    right: 71px;
+    transition: 0.5s ease-in-out;
+}
+.OtherSizersContent{
+    position: absolute;
+    bottom: 0px;
+    right: 115px;
+    transition: 0.5s ease-in-out;
+}
+.Togglebtncls span {
+    padding: 6px !important;
+}
+.GrMap svg{
+    width:100%;
+}
+.SitesAddIconssec{
+    width: 80px;  /* 90px*/
+    border: 2px solid #2ad2c9;
+    border-radius: 25px;
+    background-color: #2ad2c9;        
+}
+.SitesAddIconssec a{
+    color:#fff !important;
+        line-height: 21px !important;
+}
+
+
+.EditandDeleteTiles a:nth-child(1) span svg {
+    stroke: #614767 !important;
+}
+.EditandDeleteTiles a:nth-child(2) span svg  {
+      stroke:#ff8d6d !important;
+}
+
+.LeftSec > Div{
+    width:17%;
+}
+
+.SitesAddIconssec a svg{
+           stroke: #fff !important;
+           border: 2px solid #2ad2c9;
+    border-radius: 47%;
+}
+
+.SitesAddIconssec1 a svg{
+ border-radius: 0%;
+}
+
+.InterductionListItem li{
+    border-bottom: 0px solid rgba(0,0,0,.15);
+}
+
+.TabsAction a{
+    text-decoration: none !important;
+}
+.NextPrevSec{
+    width: 60%;
+    position:'fixed';
+     bottom:'0%';
+}
+
+.ProgressBar
+{
+  display: inline-block;
+  height:8px;width:200px;
+  margin: 0px 0px;
+  text-transform: uppercase;
+  padding: 2px 1px;
+  background: none;
+  color:darkorange;  
+  font-weight: bold;
+  position: relative;
+  transition:color 0.25s ease;
+  
+
+}
+.ProgressBarAfter {
+  position: absolute;
+  content: '';
+  top:0;
+  left: 0;
+  width: 0px;
+  height: 100%;
+  background-color: #01a982 ;
+  transform-origin:left;
+  transition:width 0.25s ease;
+  width:20%;
+}
+
+.MailboxProfilesConfig p{
+    max-width:100% !important;
+}
+
+.grommetux-tab--active .grommetux-tab__label {
+    border-color: #01a982 !important;
+}
+.grommetux-tab--active svg {
+    stroke: #01a982 ;
+}
+.grommetux-tab--active h4 {
+    font-weight: bold ;
+}
+
+.NextPrevSec1{
+    width: 60%;
+    position:'fixed';
+     bottom:'2%';
+}
+.NextPrevIcon svg
+{
+         stroke: #ff8d6d !important;
+}
+.NextPrevIcon svg polygon
+{
+         fill: #ff8d6d ;
+}
+.NextPrevIconDisabled svg
+{
+         stroke: #927a79 !important;
+}
+.NextPrevIconDisabled svg polygon
+{
+         fill: #927a79 ;
+}
+.LeftNav{
+    padding: 0px;
+    margin:0px;
+    list-style-type: none;
+}
+.LeftNav .active{
+    transition: 0.5s ease-in-out;
+    background-color:  #ff8d6d;
+
+}
+.LeftNav div{
+  border-bottom: 1px solid #ececec !important;
+}
+.active ~ li a {
+  font-weight: 550;
+  color:#01a982 !important;
+}
+
+.LeftNav div:hover div{
+
+}
+
+.LeftNav li{
+       position: relative;
+       font-size:18px !important;
+       color:#333  !important;
+    z-index: 100;
+ padding: 1px 1px 1px 5px;
+    cursor: pointer;
+}
+.LeftNav li :hover{
+    color:#01a982;
+}
+.LeftNav div li a {
+        display: block;
+      padding: 8px 0;
+    text-decoration: none !important;
+}
+
+#DisableSubmit{
+    display: block;
+}
+#EnableSubmit{
+    display: none;  
+}
+.headerPart img {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+}
+.grommetux-form-field--error {
+    z-index: 1;
+    border-color:#dadada !important;
+}
+.PricelistButton span.grommetux-button__label {
+    color: #ff8d6d;
+}
+.PricelistButton span.grommetux-button__icon {
+    padding: 2px;
+}
+.MenuBarList a{
+    font-weight: 400;
+}
+.MenuBarList a>svg{
+   stroke: #ff9374 !important;
+}
+.LeftNav div{
+padding-right: 4px;
+}
+
+.Logo svg{
+    width: 131px;
+    height: 43px;
+    margin-top: 6px;
+}
+
+.WeightFontColor{
+color:#fff !important;
+}
+.Logo path:nth-child(2) {
+    fill: #28ab8c !important;
+    stroke: #28ab8c !important;
+}
+.Logo path:nth-child(1) {
+    fill: #fff !important;
+    stroke: #fff !important;
+}
+.BuildLogo svg{
+    height: 38px !important;  
+}
+
+.BuildLogo path:nth-child(2) {
+    fill: #28ab8c !important;
+    stroke: #28ab8c !important;
+}
+.BuildLogo path:nth-child(1) {
+     fill: #333 !important;
+    stroke: #333 !important;
+}
+.RotateHeadingRack{
+    font-weight: 80;
+    transform: rotate(270deg);
+    height: 155px;
+    width: 500px;
+    position: absolute;
+    left: 0px;
+}
+.OtherSites
+{
+display: none;
+}
+.OtherSizersHover :hover  .OtherSites{
+    display: block;
+}
+
+.onHoverTab
+{
+    cursor: pointer;
+}
+
+ .onHoverTab h3::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #01a982;
+    transition: width .3s;
+}
+
+ .grommetux-toast__status{
+     width:45px !important;
+ }
+
+.onHoverTab:hover h3::after {
+    width: 100%;
+   
+}
+.onHoverTab a {
+    text-decoration: none !important;
+}
+.RedirectSections a{
+margin:0px;
+padding:0px;
+}
+
+.ProfileAssignmentScrStyle{
+    height:182% !important;
+}
+
+.DBMailBoxOptionsScrStyle{
+    height:82% !important;
+}
+
+.SiteRoleOptionsScrStyle{
+    /* width: 82% !important; */
+    height:82% !important; 
+}
+
+.SiteVirtualizeOptionsScrStyle{
+    /*width: 82% !important; 
+    height:128% !important;*/
+    height:82% !important;
+}
+
+.SiteMailboxBkpOptionsScrStyle{
+    height:82% !important;
+}
+
+.FrmFldChkbx .grommetux-check-box{
+    margin:15px -5px 0px 10px;
+}
+
+.InfocloseBtn .grommetux-button__icon {
+    padding: 0px !important;
+}
+
+.AddButtonStyle {
+    /*background-color: #2ad2c9;
+    color: #fff;*/
+    margin-left: 10px;
+    /*padding: 5px 10px !important;*/
+    /*border-radius: 25px;*/
+     margin-top: 8px;
+}
+.AddButtonStyle :hover {
+    border: 2px solid #2ad2c9 !important;    
+}
+
+.AddButtonStyle svg{   
+    stroke: #fff !important;
+}
+
+.AddIconStyle{
+    background-color: #2ad2c9;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.CustomInput{
+   width: 60%;
+    float: left;
+}
+
+.NumipWithIconStyle .grommetux-number-input{
+    width: 80%;
+    float: left;
+}
+.ddlwithInfoBox .grommetux-select {
+    width: 100%;
+}
+
+.InfoIconBtn{        
+    float: right;
+}
+
+.RadioInfoIconBtn .grommetux-button__icon{
+    float: right;
+    padding: 0px !important;
+}
+
+.MailboxFormPopup{
+    z-index: 101 !important;
+}
+
+.MailboxFormPopup .grommetux-layer__container{
+    overflow: hidden !important;     
+}
+
+.CustomInputFormField .grommetux-form-field__label{
+    font-weight: bold;
+}
+
+/*.CustomInputFormField .grommetux-select{
+    width: 80%;
+    float: right;
+}*/
+
+.grommetux-app
+{
+        height:auto ;     
+}
+.AppbackGroundImage{
+    height:95% ;     
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./img/data_cente.jpg);
+}
+.AppbackGround{
+height:100%;
+background-color: rgba(66, 85, 99, 0.61);
+}
+  .LeftSec > Div {
+    border-right: 1px solid #ececec !important;
+    height: 78vh;
+}
+/*.GRPResentPage,.GRPResentPage > div{
+   width:100%;
+   height:100%;
+}*/
+.GRPResentPage > div>ul{
+  margin:11px 0px 0px 0px;
+  height:6%;
+}
+.GRPageLayoutsink > div, .GRPageLayoutsink > div > div{
+    width:100%;
+    height:100%;
+}
+.GRPResentPage > div >div{
+   height:92%;
+}
+.GRPage .grommetux-layer__container{
+width:100%;
+height:100%;
+overflow: hidden !important;
+}
+.ConfigBtns{
+    width: 76%;
+    margin: auto;
+}
+.ConfigBtns a{
+   /*padding: 2px 0px !important;
+    margin: 2px;*/
+    }
+.HrSecPres{
+    overflow: hidden;
+    height: 100%;
+}
+.SolutionConfigAccordian{
+    width:100% !important;
+    height:78%;
+   
+}
+.GRPage{
+    z-index: 101 !important;
+}
+.SolutionConfigAccordian ul{
+    width:100%;
+}
+.SolutionConfigAccordian ul Div header{
+        
+        min-height: 35px;
+        font-size:0.690em;
+        font-weight:bold;
+            font-weight: 600;
+}
+.SolutionConfigAccordian ul Div header svg{
+    width:18px;
+    height:18px;
+}
+.ZoomSectionBtns{
+    padding:2% 0% !important;
+}
+.ZoomSectionBtns a{
+    margin:0% 7%;
+}
+.grommetux-map__category-items li{
+        border: 1px solid #f1f1f1;
+    padding: 13% 0px;
+            width: 100%;
+                background: #fff;
+    /*height: 200px;*/
+    margin-bottom: 35%;
+}
+.grommet.grommetux-drop {
+    z-index: 102 !important;
+    max-height: 185px !important;
+}
+.ZoomSectionBtnsInner a{
+      margin:2% 5%;
+}
+.ConfigBtns a{
+    text-align: center;
+}
+
+.SitesMenu .active{
+    border-bottom: 3px solid #01a982 ;
+}
+.GrMap li.grommetux-map__category {
+    margin: 2px;
+    width: 20%;
+}
+.GrMap li.grommetux-map__category:nth-child(2) {
+    width: 13%;
+}
+.GrMap li.grommetux-map__category:nth-child(3) {
+    width: 13%;
+}
+.GrMap li.grommetux-map__category:nth-child(2) img {
+    width: 58%;
+}
+.GrMap li.grommetux-map__category:nth-child(3) li{
+  height:200px;
+}
+
+.DisplayImages .grommetux-image__container{
+    width:100%;
+    height:100%;
+   
+}
+.GrMap li.grommetux-map__category ul.grommetux-map__category-items {
+    width: 100%;
+}
+
+.DisplayImages {
+   
+    height:100%;  
+}
+.DisplayImages span img {
+    width: 63%;
+    margin: auto;
+     height:100%;
+}
+.DisplayImages label {
+   margin-bottom: 7px;
+    margin-top: 1px;
+    font-size: 12px;
+    padding: 4px;
+    font-weight: bold;
+}
+
+
+.GRPResentPage{
+    background-color: #425563;
+}
+.GrTabSection,.GrTabInnerSection{
+    background-color: #fff;
+}
+ 
+
+.FormNumInputFiled span.grommetux-button__icon {
+    padding: 5px;
+}
+
+.GRPResentPage > Div >ul .grommetux-tab--active label {
+    color: #ff8d6d;
+}
+.GRPResentPage > Div >ul .grommetux-tab__label {
+    color: #fff;
+}
+.GRPResentPage > Div >ul .grommetux-tab--active .grommetux-tab__label {
+    border-color: #ff8d6d !important;
+}
+
+.RackItemsHover:hover{
+    transition: all 0.100s ease-in-out;
+    transform: scale(2.3,1.2);
+    position: relative;
+    z-index:105;
+}
+.ServerItemsHover:hover{
+    transition: all 0.100s ease-in-out;
+    transform: scale(1.3,1.3);
+    z-index: 100;
+    cursor: pointer;
+
+}
+.DisplayImages label {
+   margin-bottom: 7px;
+    margin-top: 1px;
+    font-size: 12px;
+    padding: 4px;
+    font-weight: bold;
+}
+.RackImageDisplay{
+   background-size: cover !important;
+    background-repeat: round !important;
+    background-position: left top !important;
+}
+.RackHeightCls{
+  position: relative;
+    /*transform: rotate(270deg);*/
+       float: left;
+    height: 35px;
+    /* width: 52px; */
+    margin: auto;
+}
+.grommetux-map__categories>li>Div {
+    display: none;
+}
+.ListItemsCls{
+    padding:2px 2px 2px 10px !important;
+}
+  
+    /* transform-origin: top 0; */
+ .grommetux-layer__closer .grommetux-button--plain span.grommetux-button__icon svg {
+    stroke: #f5f5f5;
+}
+
+
+/* BOMGR presentation CSS */
+.BOMDropdownMenu .grommetux-select__input{
+    /*padding: 5px 23px;*/
+        padding: 5px 64px 5px 13px;
+}
+.BOMDropdownMenu .grommetux-heading--margin-small{
+    margin-top:6px;
+    margin-bottom:6px;
+}
+.BOMDTableMenu .grommetux-table td, .grommetux-table th{
+        padding: 6px 9px;
+}
+.grommetux-sun-burst {
+    height: 298px !important;
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 700px){
+
+   .onHoverTab {
+    flex-basis: 328px; 
+    flex-wrap: nowrap;
+}
+.grommetux-app{
+ height: 100%;
+}
+.HomeScreen {
+    height: 85%;
+}
+.AppbackGroundImage{
+height:94%;
+}
+ .AppbackGround{
+height:100%;
+ }  
+  .onHoverTab h3.grommetux-heading {
+    font-size: 22px;
+    line-height: 1.333;
+}
+.LeftSec > Div {
+    border-right: 1px solid #ececec !important;
+    height: 74vh;
+}
+}
+@media screen and (max-width: 1024px) and (min-width: 769px){
+  .onHoverTab {
+    flex-basis: 328px; 
+    flex-wrap: nowrap;
+}
+.grommetux-app{
+ height: 100%;
+}
+.HomeScreen {
+    height: 86.5%;
+}
+.AppbackGroundImage{
+height:94%;
+}
+ .AppbackGround{
+height:100%;
+ }  
+  .onHoverTab h3.grommetux-heading {
+    font-size: 22px;
+    line-height: 1.333;
+}
+.LeftSec > Div {
+    border-right: 1px solid #ececec !important;
+    height: 74vh;
+}
+.SitesAddIconssec1{
+   margin:0px 0px;padding: 0px 0px;
+   overflow:hidden;
+  
+}
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1025px){
+  .onHoverTab {
+    flex-basis: 328px; 
+    flex-wrap: nowrap;
+}
+.grommetux-app{
+ height: 100%;
+}
+.HomeScreen {
+    height: 86.5%;
+}
+.AppbackGroundImage{
+height:94%;
+}
+ .AppbackGround{
+height:100%;
+ }  
+  .onHoverTab h3.grommetux-heading {
+    font-size: 22px;
+    line-height: 1.333;
+}
+.LeftSec > Div {
+    border-right: 1px solid #ececec !important;
+    height: 72vh;
+}
+.DagsAndSiresInut{
+       padding: 7px !important;
+}
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1281px){
+  .onHoverTab {
+    flex-basis: 328px; 
+    flex-wrap: nowrap;
+}
+.grommetux-app{
+ height: 100%;
+}
+.HomeScreen {
+    height: 88%;
+}
+.AppbackGroundImage{
+height:94%;
+}
+ .AppbackGround{
+height:100%;
+ }  
+  .onHoverTab h3.grommetux-heading {
+    font-size: 22px;
+    line-height: 1.333;
+}
+.LeftSec > Div {
+    border-right: 1px solid #ececec !important;
+    height: 74vh;
+}
+
+}
+@media screen and (max-width: 7000px) and (min-width: 3201px){
+ .PanelSec2{
+    height:250px;
+}
+}
+@media screen and (max-width: 3200px) and (min-width: 1901px){
+ .PanelSec2{
+    height:250px;
+}
+}
+@media screen and (max-width: 1900px) and (min-width: 1601px){
+ .PanelSec2{
+    height:250px;
+}
+}
+@media screen and (max-width: 1600px) and (min-width: 1441px){
+  .PanelSec2{
+    height:250px;
+}
+  .onHoverTab {
+    flex-basis: 328px; 
+    flex-wrap: nowrap;
+}
+.grommetux-app{
+ height: 100%;
+}
+.HomeScreen {
+    height: 89%;
+}
+.AppbackGroundImage{
+height:94%;
+}
+ .AppbackGround{
+height:100%;
+ }  
+  .onHoverTab h3.grommetux-heading {
+    font-size: 22px;
+    line-height: 1.333;
+}
+.LeftSec > Div {
+    border-right: 1px solid #ececec !important;
+    height: 77vh;
+}
+
+}
+.InputNumberFildsOtherEnv input{
+    width:41%;
+}
+.AdditionalInflolayer >div {
+    width: 50%;
+    height: auto;
+}
+.grommetux-menu__drop .grommetux-anchor {
+        padding: 2px 16px !important;
+}
+                                                                                                                                                        
+                                                                                                                                                   
+.themeheader {
+    font-size: 16px;
+    line-height: 1.375;
+    font-weight: 600;
+     /*BACKGROUND-COLOR: #808080;
+      FONT-WEIGHT: bold;
+       FONT-SIZE: 13px;
+        COLOR: Black; 
+        FONT-FAMILY: arial,
+        verdana,sans-serif; 
+        TEXT-DECORATION: none; */
+        } 
+       .TableData{
+           width: 100% !important;
+          border-color: rgba(51, 51, 51, 0.16) !important;
+        }
+      .TableData tr:nth-child(1) td {
+            font-weight: bold;
+            font-size: 15px;
+        }
+        blockquote table {
+                width: 100%;
+        }
+        .TableData tr td {
+            font-size: 15px;
+            font-family: Metric,Arial,sans-serif;
+            padding: 8px 11px;
+            text-align: left;
+            /* font-size: 1em; */
+            line-height: 1.5;
+        }
+         .tablePrintData { 
+        
+            padding: 5px 11px;
+            /*text-align: left;*/
+                font-size: 16px;
+            line-height: 1.5;
+             font-family: Metric,Arial,sans-serif;
+             /*FONT-SIZE: 12px; 
+             FONT-FAMILY: Arial; 
+             TEXT-DECORATION: none */
+      } .tableDataPrintCategory { 
+              background-color: #f5f5f5;
+
+            padding: 5px 11px;
+            text-align: left;
+           font-size: 16px;
+            line-height: 1.5;
+             font-family: Metric,Arial,sans-serif;
+             } 
+             .StringSection table{
+                    width: 98%;
+                }
+                 .StringConfigurationSection table{
+                    width: 100%;
+                }
+                 .StringConfigurationSection table tbody td{
+                     font-size: 16px;
+                 }
+       
+                    .StringSection blockquote {
+                    /*line-height: 0px !important;        */
+                    font-size: 0px !important;
+                    /* line-height: 1.33333; */
+                    margin-top: 0px !important;
+                    margin-bottom: 0px !important;
+                }
+
+             .tableDataCategory {
+                  FONT-SIZE: 14px;
+                   BACKGROUND-COLOR: #C0C0C0;
+                    FONT-WEIGHT: bold; 
+                    COLOR: Black; 
+                  font-family: Metric,Arial,sans-serif;
+                    TEXT-ALIGN: center 
+                    } 
+
+                    .copy { 
+                            font-size: 16px;
+                            font-family: Metric,Arial,sans-serif;
+                          } 
+                           a.hyperClass:link {
+                              color:#614767;
+                              } a.hyperClass:hover {
+                                  text-decoration: underline;
+                                  color:#00B388
+                            }
+                            #test-table-xls-button{
+                                position: absolute !important;
+                                    bottom: 0%;
+                            }
+                             .ConfigXls{
+                                position: absolute !important;
+                                    bottom: 0% !important;
+                            }
+                            .StringConfigurationSection p ,  .StringConfigurationSection b {
+                                    margin: 0px 2px !important;
+                            }
+                            .StringConfigurationSection blockquote {
+                                margin: 0px !important;
+                            }
+                           
+                            .treeViewItem ul{
+                               margin-left:2em;
+                            }
+                            .treeViewItem li{
+                                      color: #333 !important;
+                            font-size: 15px !important;
+                            font-family: Metric,Arial,sans-serif;
+                            font-weight: 500 !important;
+                            padding: 5px;
+                            }
+ .BOMDTableMenu tbody tr {
+    cursor: pointer;
+    outline: none;
+    color: #f7f3f3;
+}
+.BOMDTableMenu tbody > tr:last-child {
+     color: #000;
+}
+.FixedHeaderTblBOM{
+    border: 1px solid #e4e2e2;
+}

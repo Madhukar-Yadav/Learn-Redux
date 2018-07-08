@@ -1,0 +1,218 @@
+{
+    "Solutions": {
+        "@PriceList": "4/1/2018 12:00:00 AM",
+        "@TreeView": "1",
+        "@ETSEVersion": "18.8.0",
+        "@Country": "United States",
+        "@Currency": "UD",
+        "Solution": {
+            "@ID": "1",
+            "@Customizable": "1",
+            "@FirstRole": "ProdCentralCluster",
+            "SolutionsArchitecture": "Central Cluster",
+            "ResoningText": "",
+            "SolProfile": {
+                "@ID": "1",
+                "#text": "Recommended"
+            },
+            "NoOfSolutionWithAsterisk": "1",
+            "SolPrice": "592,368 *",
+            "TotalPrice": "592,368",
+            "Roles": {
+                "@FirstRole": "ProdCentralCluster",
+                "Role": [
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "ProdCentralCluster",
+                        "ServerName": {
+                            "@Qty": "2",
+                            "@Height": "18",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "HPE Integrity Superdome X"
+                        },
+                        "BladeEncGR": {
+                            "@BladeShareName": "",
+                            "@PartNumber": "AT147B",
+                            "@BladesPerEnc": "8",
+                            "#text": "HPE Superdome X Base Enclosure"
+                        },
+                        "BladeEncGRQty": "1",
+                        "Processor": "2 x HPE Integrity Superdome X 2P",
+                        "ProcessorDetails": "Intel Tetracosa  Core\n                                      2.2GHz / 45MB Cache",
+                        "Memory": "512 GB  RAM",
+                        "NSSShared": "",
+                        "Storage": "GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (0 - Ports)"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "Test/Quality Assurance System",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "18",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "HPE Integrity Superdome X"
+                        },
+                        "BladeEncGR": {
+                            "@BladeShareName": "",
+                            "@PartNumber": "AT147B",
+                            "@BladesPerEnc": "8",
+                            "#text": "HPE Superdome X Base Enclosure"
+                        },
+                        "BladeEncGRQty": "1",
+                        "Processor": "1 x HPE Integrity Superdome X 2P",
+                        "ProcessorDetails": "Intel Docosa  Core\n                                      2.2GHz / 45MB Cache",
+                        "Memory": "512 GB  RAM",
+                        "NSSShared": "",
+                        "Storage": "GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (0 - Ports)"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "Training System",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "18",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "HPE Integrity Superdome X"
+                        },
+                        "BladeEncGR": {
+                            "@BladeShareName": "",
+                            "@PartNumber": "AT147B",
+                            "@BladesPerEnc": "8",
+                            "#text": "HPE Superdome X Base Enclosure"
+                        },
+                        "BladeEncGRQty": "1",
+                        "Processor": "1 x HPE Integrity Superdome X 2P",
+                        "ProcessorDetails": "Intel Deca  Core\n                                      2.8GHz / 45MB Cache",
+                        "Memory": "512 GB  RAM",
+                        "NSSShared": "",
+                        "Storage": "GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (0 - Ports)"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "Development System",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "18",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "HPE Integrity Superdome X"
+                        },
+                        "BladeEncGR": {
+                            "@BladeShareName": "",
+                            "@PartNumber": "AT147B",
+                            "@BladesPerEnc": "8",
+                            "#text": "HPE Superdome X Base Enclosure"
+                        },
+                        "BladeEncGRQty": "1",
+                        "Processor": "1 x HPE Integrity Superdome X 2P",
+                        "ProcessorDetails": "Intel Tetradeca  Core\n                                      2.1GHz / 35MB Cache",
+                        "Memory": "512 GB  RAM",
+                        "NSSShared": "",
+                        "Storage": "GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (0 - Ports)"
+                        }
+                    },
+                    {
+                        "@Site": "",
+                        "@ParentSite": "",
+                        "@SharedRoles": "",
+                        "@SiteName": "",
+                        "@DisplayName": "",
+                        "@BranchSitesWithoutHardware": "",
+                        "@RoleSubNode": "",
+                        "@SiteSubNode": "",
+                        "SAN": {
+                            "SAN": "true",
+                            "PerfData": "false"
+                        },
+                        "DAS": "",
+                        "RoleName": "Sandbox System",
+                        "ServerName": {
+                            "@Qty": "1",
+                            "@Height": "18",
+                            "@Power": "",
+                            "@Weight": "",
+                            "#text": "HPE Integrity Superdome X"
+                        },
+                        "BladeEncGR": {
+                            "@BladeShareName": "",
+                            "@PartNumber": "AT147B",
+                            "@BladesPerEnc": "8",
+                            "#text": "HPE Superdome X Base Enclosure"
+                        },
+                        "BladeEncGRQty": "1",
+                        "Processor": "1 x HPE Integrity Superdome X 2P",
+                        "ProcessorDetails": "Intel Tetradeca  Core\n                                      2.1GHz / 35MB Cache",
+                        "Memory": "512 GB  RAM",
+                        "NSSShared": "",
+                        "Storage": "GB Storage",
+                        "NICs": {
+                            "NICHeader": "NIC Details (0 - Ports)"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

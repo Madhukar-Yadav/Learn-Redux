@@ -1,0 +1,66 @@
+<Solutions PriceList="12/18/2017 12:00:00 AM" TreeView="1" ETSEVersion="18.4.2" Country="United States" Currency="UD">
+  <Solution ID="1" Customizable="1" FirstRole="Mailbox (log and database isolated) server - Site 1 - No DAG">
+    <RackSelected SiteName="Site 1" MaxPower="" MaxWeight="" Qty="1" RackType="14U" Price="1099" PartNumber="H6J82A" Description="HPE 14U 600mm x 1075mm Advanced Shock Rack" CompDesc="1 x HPE 14U 600mm x 1075mm Advanced Shock Rack (14U)">
+    </RackSelected>
+    <SolutionsArchitecture>Server solution with selected platforms</SolutionsArchitecture>
+    <ResoningText>The configured server roles are based on the best-fit server platforms selected for each site.</ResoningText>
+    <SolProfile ID="1">Recommended</SolProfile>
+    <NoOfSolutionWithAsterisk>1</NoOfSolutionWithAsterisk>
+    <SolPrice>120,015 *</SolPrice>
+    <TotalPrice>120,015</TotalPrice>
+    <Roles FirstRole="Mailbox (log and database isolated) server - Site 1 - No DAG">
+      <Role Site="" ParentSite="" SharedRoles="" SiteName="Site 1" DisplayName="" BranchSitesWithoutHardware="" RoleSubNode="" SiteSubNode="">
+        <SAN>
+          <SAN>true</SAN>
+          <PerfData>false</PerfData>
+          <StorageBoxes>1</StorageBoxes>
+          <TableData>
+            <VolumeName>Transaction Logs</VolumeName>
+            <Disk>300GB 15K SAS SFF HDD</Disk>
+            <RaidLevel>RAID10 1:1</RaidLevel>
+            <DiskQty>2</DiskQty>
+            <ArrayType>8440</ArrayType>
+          </TableData>
+          <TableData>
+            <VolumeName>Databases</VolumeName>
+            <Disk>300GB 15K SAS SFF HDD</Disk>
+            <RaidLevel>RAID10 1:1</RaidLevel>
+            <DiskQty>2</DiskQty>
+            <ArrayType>8440</ArrayType>
+          </TableData>
+          <TableData>
+            <VolumeName>Restore LUN</VolumeName>
+            <Disk>300GB 15K SAS SFF HDD</Disk>
+            <RaidLevel>RAID10 1:1</RaidLevel>
+            <DiskQty>2</DiskQty>
+            <ArrayType>8440</ArrayType>
+          </TableData>
+        </SAN>
+        <DAS>
+          <TableData>
+            <VolumeName>System / Page File (SPF)</VolumeName>
+            <Disk>1TB 12G SAS 7.2K 3.5 MDL SC HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>2</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+          </TableData>
+        </DAS>
+        <RoleName>Mailbox (log and database isolated) server - Site 1 - No DAG</RoleName>
+        <ServerName Qty="1" Height="1" Power="" Weight="">ProLiant DL360 Gen10</ServerName>
+        <Processor>1 x ProLiant DL360 Gen10 1P</Processor>
+        <ProcessorDetails>Intel  6 - Core 1.7GHz / 11MB Cache
+                                </ProcessorDetails>
+        <Memory>64 GB  RAM
+                                </Memory>
+        <NSSShared>
+        </NSSShared>
+        <Storage>512 GB Storage
+                                    </Storage>
+        <NICs>
+          <NICHeader>NIC Details (4 - Ports) </NICHeader>
+          <NIC>1 x Embedded 4-Port 1Gb Network Adapter</NIC>
+        </NICs>
+      </Role>
+    </Roles>
+  </Solution>
+</Solutions>

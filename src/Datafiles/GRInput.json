@@ -1,0 +1,408 @@
+{
+  "GraphicalInputs": {
+    "-Country": "United States",
+    "-Currency": "UD",
+    "-SizingEngineVer": "18.3.1",
+    "-SizerVersion": "18.3.1",
+    "-PriceFileDate": "1/15/2018",
+    "-CurrencyCode": "$",
+    "GraphicalInput": [
+      {
+        "-Site": "Site 1",
+        "-SiteID": "0",
+        "Items": {
+          "-RowCount": "5",
+          "-ColumnCount": "3",
+          "Item": [
+            {
+              "-EnclosureType": "HP BLc3000 Platinum CTO Enclosure with 6 Fans ROHS Trial IC License",
+              "-EnclosureQty": "1",
+              "-BladeSharedName": "Blades In Shared Enclosure(s) - Site 1 - CTO",
+              "-BladesPerEnc": "8",
+              "-QuickInfo": "ProLiant BL460c Gen10 Server",
+              "-imagepath": "C:\\Hewlett Packard Enterprise\\Sizers\\Sizing Engine\\\\Images\\Servers\\ProLiant BL460c Gen10 Server.gif",
+              "-description": "2 x ProLiant BL460c Gen10 Server 1P",
+              "-Qty": "2",
+              "-Height": "3",
+              "-name": "Mailbox (log and database combined) server - Site 1 - DAG 1",
+              "-id": "22",
+              "-column": "2",
+              "-row": "2",
+              "-StorageAttached": "False",
+              "-SharedStorage": "false",
+              "-ConnectedTo": "0",
+              "-Type": "Server",
+              "Display": {
+                "Node": [
+                  {
+                    "-Heading": "Processor",
+                    "#text": "Intel  6 - Core 1.7GHz / 11MB Cache"
+                  },
+                  {
+                    "-Heading": "Memory",
+                    "#text": "64 GB  RAM"
+                  },
+                  {
+                    "-Heading": "Storage",
+                    "-SubHeading": "Internal",
+                    "-ChildHeading": "Volume",
+                    "SubItem": "System / Page File - DAG 1 (SPF) - 4 x 300GB 12G SAS 15K 2.5in SC DS HDD"
+                  }
+                ]
+              },
+              "Connections": {
+                "Connection": [
+                  {
+                    "id": "33",
+                    "linecolor": "Red"
+                  },
+                  {
+                    "id": "12",
+                    "linetype": "Dotted"
+                  }
+                ]
+              }
+            },
+            {
+              "-EnclosureType": "HPE BLc7000 TAA CTO Platinum Enclosure",
+              "-EnclosureQty": "1",
+              "-BladeSharedName": "Blades In Shared Enclosure(s) - Site 1 - CTO",
+              "-BladesPerEnc": "16",
+              "-QuickInfo": "ProLiant BL460c Gen10 Server",
+              "-imagepath": "C:\\Hewlett Packard Enterprise\\Sizers\\Sizing Engine\\\\Images\\Servers\\ProLiant BL460c Gen10 Server.gif",
+              "-description": "2 x ProLiant BL460c Gen10 Server 1P",
+              "-Qty": "2",
+              "-Height": "3",
+              "-name": "Mailbox (log and database combined) server - Site 1 - DAG 2",
+              "-id": "12",
+              "-column": "2",
+              "-row": "1",
+              "-StorageAttached": "True",
+              "-SharedStorage": "false",
+              "-ConnectedTo": "2",
+              "-Type": "Server",
+              "-ServerQty": "0",
+              "Display": {
+                "Node": [
+                  {
+                    "-Heading": "Processor",
+                    "#text": "Intel Quad  Core 2.6GHz / 8.25MB Cache"
+                  },
+                  {
+                    "-Heading": "Memory",
+                    "#text": "64 GB  RAM"
+                  },
+                  {
+                    "-Heading": "Storage",
+                    "-SubHeading": "Internal",
+                    "-ChildHeading": "Volume",
+                    "SubItem": "System / Page File - DAG 2 (SPF) - 4 x 300GB 12G SAS 15K 2.5in SC DS HDD"
+                  }
+                ]
+              },
+              "Connections": {
+                "Connection": [
+                  {
+                    "id": "13",
+                    "linecolor": "Green"
+                  },
+                  {
+                    "id": "32",
+                    "linetype": "Dotted"
+                  }
+                ]
+              }
+            },
+            {
+              "-EnclosureQty": "1",
+              "-BladesPerEnc": "16",
+              "-QuickInfo": "StorageLink",
+              "-imagepath": "C:\\Hewlett Packard Enterprise\\Sizers\\Sizing Engine\\\\Images\\Storage\\D2700 SAS.gif",
+              "-description": "3 x D2700 SAS",
+              "-Qty": "2",
+              "-Height": "3",
+              "-name": "Mailbox (log and database combined) server - Site 1 - DAG 2",
+              "-id": "13",
+              "-column": "3",
+              "-row": "1",
+              "-StorageAttached": "True",
+              "-SharedStorage": "false",
+              "-ConnectedTo": "2",
+              "-Type": "Storage",
+              "-StorageQty": "2",
+              "-DASQty": "3",
+              "-RackOccupied": "2",
+              "Display": {
+                "Node": {
+                  "-Heading": "Storage",
+                  "-SubHeading": "SAN (140 disks)",
+                  "-ChildHeading": "Volume",
+                  "-Name": "3 x D2700 SAS",
+                  "SubItem": [
+                    "Transaction Logs/Databases - DAG 2 - 138 x 72GB 6G SAS 15K 2.5 DP HDD",
+                    "Restore LUN - DAG 2 - 2 x 72GB 6G SAS 15K 2.5 DP HDD"
+                  ]
+                }
+              }
+            },
+            {
+              "-EnclosureType": "HPE BLc7000 TAA CTO Platinum Enclosure",
+              "-EnclosureQty": "1",
+              "-BladeSharedName": "Blades In Shared Enclosure(s) - Site 1 - CTO",
+              "-BladesPerEnc": "16",
+              "-QuickInfo": "ProLiant BL460c Gen10 Server",
+              "-imagepath": "C:\\Hewlett Packard Enterprise\\Sizers\\Sizing Engine\\\\Images\\Servers\\ProLiant BL460c Gen10 Server.gif",
+              "-description": "2 x ProLiant BL460c Gen10 Server 1P",
+              "-Qty": "2",
+              "-Height": "3",
+              "-name": "Mailbox (log and database combined) server - Site 1 - DAG 3",
+              "-id": "32",
+              "-column": "2",
+              "-row": "3",
+              "-StorageAttached": "False",
+              "-SharedStorage": "false",
+              "-ConnectedTo": "0",
+              "-Type": "Server",
+              "-ServerQty": "0",
+              "Display": {
+                "Node": [
+                  {
+                    "-Heading": "Processor",
+                    "#text": "Intel Deca  Core 2.4GHz / 13.75MB Cache"
+                  },
+                  {
+                    "-Heading": "Memory",
+                    "#text": "128 GB  RAM"
+                  },
+                  {
+                    "-Heading": "Storage",
+                    "-SubHeading": "Internal",
+                    "-ChildHeading": "Volume",
+                    "SubItem": "System / Page File - DAG 3 (SPF) - 4 x 300GB 12G SAS 15K 2.5in SC DS HDD"
+                  }
+                ]
+              },
+              "Connections": {
+                "Connection": {
+                  "id": "33",
+                  "linecolor": "Red"
+                }
+              }
+            },
+            {
+              "-QuickInfo": "StorageLink",
+              "-imagepath": "C:\\Hewlett Packard Enterprise\\Sizers\\Sizing Engine\\\\Images\\Storage\\D6000.gif",
+              "-description": "2 x D6000",
+              "-name": "Shared Storage",
+              "-id": "33",
+              "-column": "3",
+              "-row": "3",
+              "-StorageAttached": "True",
+              "-SharedStorage": "false",
+              "-ConnectedTo": "4",
+              "-Type": "Storage",
+              "-StorageQty": "0",
+              "-DASQty": "2",
+              "SharedRoles": {
+                "Role": [
+                  "Mailbox (log and database combined) server - Site 1 - DAG 1",
+                  "Mailbox (log and database combined) server - Site 1 - DAG 3"
+                ]
+              },
+              "Display": {
+                "Node": {
+                  "-Heading": "Storage",
+                  "-SubHeading": "DAS (92 disks)",
+                  "-ChildHeading": "Volume",
+                  "-Name": "2 x D6000",
+                  "SubItem": [
+                    "Transaction Logs/Databases - DAG 1 - 34 x 600GB 15K 12G 3.5in CC ENT SAS HDD",
+                    "Restore LUN - DAG 1 - 2 x 600GB 15K 12G 3.5in CC ENT SAS HDD",
+                    "Transaction Logs/Databases - DAG 3 - 54 x 300GB 15K 12G 3.5in CC ENT SAS HDD",
+                    "Restore LUN - DAG 3 - 2 x 300GB 15K 12G 3.5in CC ENT SAS HDD"
+                  ]
+                }
+              }
+            },
+            {
+              "-EnclosureType": "C7000",
+              "-Type": "BladeEnclosure",
+              "-description": "1 x C7000",
+              "-name": "Blades In Shared Enclosure(s) - Site 1 - CTO",
+              "-id": "51",
+              "-column": "1",
+              "-row": "5",
+              "-imagepath": "C:\\Hewlett Packard Enterprise\\Sizers\\Sizing Engine\\\\Images\\Enclosures\\C7000.gif",
+              "-BladeSharedName": "Blades In Shared Enclosure(s) - Site 1 - CTO",
+              "-EnclosureQty": "0",
+              "-ServerQuantity": "2",
+              "-ServerPerEnclosure": "16",
+              "-SubQty": "1",
+              "-ServerQty": "1",
+              "-ImagePlaced": "1",
+              "Display": {
+                "Node": [
+                  {
+                    "-Heading": "Server",
+                    "#text": "2 x ProLiant BL460c Gen10 Server 1P"
+                  },
+                  {
+                    "-Heading": "Server",
+                    "#text": "2 x ProLiant BL460c Gen10 Server 1P"
+                  },
+                  {
+                    "-Heading": "Server",
+                    "#text": "2 x ProLiant BL460c Gen10 Server 1P"
+                  }
+                ]
+              },
+              "TypeGroup": {
+                "Node": [
+                  "22",
+                  "12",
+                  "32"
+                ]
+              }
+            },
+            {
+              "-QuickInfo": "AF021A",
+              "-RackType": "22U",
+              "-Type": "Rack",
+              "-VerticalMerge": "1",
+              "-description": "1 x 22U Rack",
+              "-name": "HPE 10622 G2 Pallet Universal Rack",
+              "-id": "11",
+              "-column": "1",
+              "-row": "1",
+              "-imagepath": "C:\\Hewlett Packard Enterprise\\Sizers\\Sizing Engine\\\\Images\\Rack\\22U.gif",
+              "Display": {
+                "Node": [
+                  {
+                    "-Heading": "Server",
+                    "#text": "2 x ProLiant BL460c Gen10 Server 1P"
+                  },
+                  {
+                    "-Heading": "BladeEnclosure",
+                    "#text": "1 x C7000"
+                  },
+                  {
+                    "-Heading": "Server",
+                    "#text": "2 x ProLiant BL460c Gen10 Server 1P"
+                  },
+                  {
+                    "-Heading": "Storage",
+                    "#text": "3 x D2700 SAS"
+                  },
+                  {
+                    "-Heading": "Server",
+                    "#text": "2 x ProLiant BL460c Gen10 Server 1P"
+                  },
+                  {
+                    "-Heading": "Storage",
+                    "#text": "2 x D6000"
+                  }
+                ]
+              },
+              "TypeGroup": {
+                "Node": [
+                  "22",
+                  "51",
+                  "12",
+                  "13",
+                  "32",
+                  "33"
+                ]
+              }
+            }
+          ]
+        }
+      }
+     
+    ],
+    "OuterLayer": [
+      {
+        "-Site": "Site 1",
+        "-SiteId": "0",
+        "-Type": "Rack",
+        "-Name": "Rack 1",
+        "-id": "1",
+        "-Height": "22U",
+        "-ImagePath": "C:\\Hewlett Packard Enterprise\\Sizers\\Sizing Engine\\\\Images\\GRE Images\\",
+        "-OuterLayerImage": "HP642Rack.png",
+        "-Visioid": "0",
+        "-VisioImagePath": "C:\\Hewlett Packard Enterprise\\Sizers\\Sizing Engine\\xml\\ConfigDetails\\Exchange 2016 Sizing Tool\\0",
+        "InnerLayers": {
+          "-Type": "Enclosures",
+          "InnerLayer": [
+            {
+              "-Type": "Enclosure",
+              "-Name": "Enc",
+              "-placement": "1",
+              "-Height": "10U",
+              "-columns": "1",
+              "-rows": "1",
+              "-EmptyImage": "C7000.gif",
+              "-BorderImage": "Border20kRack.png",
+              "-AlignPosition": "Horizontal",
+              "Item": [
+                {
+                  "-ServerName": "ProLiant BL460c Gen10 Server",
+                  "-EmptyImage": "ProLiant BL460c Gen10 Server.gif",
+                  "-EnclosureHeight": "1"
+                },
+                {
+                  "-ServerName": "ProLiant BL460c Gen10 Server",
+                  "-EmptyImage": "ProLiant BL460c Gen10 Server.gif",
+                  "-EnclosureHeight": "1"
+                },
+                {
+                  "-ServerName": "ProLiant BL460c Gen10 Server",
+                  "-EmptyImage": "ProLiant BL460c Gen10 Server.gif",
+                  "-EnclosureHeight": "1"
+                },
+                {
+                  "-ServerName": "ProLiant BL460c Gen10 Server",
+                  "-EmptyImage": "ProLiant BL460c Gen10 Server.gif",
+                  "-EnclosureHeight": "1"
+                }
+              ]
+            },
+            {
+              "-Type": "Enclosure",
+              "-Name": "Enc",
+              "-placement": "2",
+              "-Height": "5U",
+              "-columns": "1",
+              "-rows": "1",
+              "-EmptyImage": "D6000.gif",
+              "-BorderImage": "Border20kRack.png",
+              "-AlignPosition": "Horizontal"
+            },
+            {
+              "-Type": "Enclosure",
+              "-Name": "Enc",
+              "-placement": "3",
+              "-Height": "5U",
+              "-columns": "1",
+              "-rows": "1",
+              "-EmptyImage": "D6000.gif",
+              "-BorderImage": "Border20kRack.png",
+              "-AlignPosition": "Horizontal"
+            },
+            {
+              "-Type": "Enclosure",
+              "-Name": "Enc",
+              "-placement": "4",
+              "-Height": "2U",
+              "-columns": "1",
+              "-rows": "1",
+              "-EmptyImage": "D2700 SAS.gif",
+              "-BorderImage": "Border20kRack.png",
+              "-AlignPosition": "Horizontal"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

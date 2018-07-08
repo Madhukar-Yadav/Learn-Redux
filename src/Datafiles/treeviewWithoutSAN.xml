@@ -1,0 +1,501 @@
+<Solutions PriceList="12/18/2017 12:00:00 AM" TreeView="1" ETSEVersion="17.6.4" Country="United States" Currency="UD">
+  <Solution ID="1" Customizable="1" FirstRole="Mailbox (log and database isolated) server - Site 1 - No DAG">
+    <RackSelected SiteName="Site 1" MaxPower="" MaxWeight="" Qty="1" RackType="36U" Price="1649" PartNumber="BW899A" Description="HPE 36U 600mm x 1200mm Enterprise Pallet Rack" CompDesc="1 x HPE 36U 600mm x 1200mm Enterprise Pallet Rack (36U)">
+    </RackSelected>
+    <RackSelected SiteName="Site 2" MaxPower="" MaxWeight="" Qty="1" RackType="36U" Price="1649" PartNumber="BW899A" Description="HPE 36U 600mm x 1200mm Enterprise Pallet Rack" CompDesc="1 x HPE 36U 600mm x 1200mm Enterprise Pallet Rack (36U)">
+    </RackSelected>
+    <RackSelected SiteName="Site 3" MaxPower="" MaxWeight="" Qty="1" RackType="36U" Price="1649" PartNumber="BW899A" Description="HPE 36U 600mm x 1200mm Enterprise Pallet Rack" CompDesc="1 x HPE 36U 600mm x 1200mm Enterprise Pallet Rack (36U)">
+    </RackSelected>
+    <SolutionsArchitecture>Server solution with selected platforms</SolutionsArchitecture>
+    <ResoningText>The configured server roles are based on the best-fit server platforms selected for each site.</ResoningText>
+    <SolProfile ID="1">Recommended</SolProfile>
+    <NoOfSolutionWithAsterisk>0</NoOfSolutionWithAsterisk>
+    <SolPrice>725,238</SolPrice>
+    <TotalPrice>725,238</TotalPrice>
+    <Roles FirstRole="Mailbox (log and database isolated) server - Site 1 - No DAG">
+      <Role Site="" ParentSite="" SharedRoles="" SiteName="Site 1" DisplayName="" BranchSitesWithoutHardware="" RoleSubNode="" SiteSubNode="">
+        <SAN>
+          <SAN>true</SAN>
+          <PerfData>false</PerfData>
+        </SAN>
+        <DAS>
+          <TableData>
+            <VolumeName>System / Page File (SPF)</VolumeName>
+            <Disk>300GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>2</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+          </TableData>
+          <TableData>
+            <VolumeName>Transaction Logs (TL)</VolumeName>
+            <Disk>600GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>2</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+          <TableData>
+            <VolumeName>Databases (DB)</VolumeName>
+            <Disk>600GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>2</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+          <TableData>
+            <VolumeName>Restore LUN (RL)</VolumeName>
+            <Disk>600GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID0</RAIDLevel>
+            <DiskQty>1</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+        </DAS>
+        <RoleName>Mailbox (log and database isolated) server - Site 1 - No DAG</RoleName>
+        <ServerName Qty="1" Height="3" Power="" Weight="">Synergy 480 Gen10 Server</ServerName>
+        <BladeEncGR BladeShareName="Synergy in Shared Frame(s) - Site 1 - CTO" PartNumber="797740-B21" BladesPerEnc="12">HPE Synergy 12000 CTO Frame 1xFLM 10x Fan</BladeEncGR>
+        <BladeEncGRQty>1</BladeEncGRQty>
+        <Processor>1 x Synergy 480 Gen10 Server 1P</Processor>
+        <ProcessorDetails>Intel  6 - Core 1.7GHz / 11MB Cache
+                                </ProcessorDetails>
+        <Memory>64 GB  RAM
+                                </Memory>
+        <NSSShared>
+        </NSSShared>
+        <Storage>523 GB Storage
+                                    </Storage>
+        <NICs>
+          <NICHeader>NIC Details (2 - Ports) </NICHeader>
+          <NIC>1 x HPE Synergy 3820C 10/20Gb CNA</NIC>
+        </NICs>
+      </Role>
+      <Role Site="" ParentSite="" SharedRoles="" SiteName="Site 1" DisplayName="" BranchSitesWithoutHardware="" RoleSubNode="" SiteSubNode="">
+        <SAN>
+          <SAN>true</SAN>
+          <PerfData>false</PerfData>
+        </SAN>
+        <DAS>
+          <TableData>
+            <VolumeName>System / Page File - DAG 2 (SPF)</VolumeName>
+            <Disk>300GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>4</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+          </TableData>
+          <TableData>
+            <VolumeName>Transaction Logs/Databases - DAG 2 (TLDB)</VolumeName>
+            <Disk>900GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>Non-RAID</RAIDLevel>
+            <DiskQty>12</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+          <TableData>
+            <VolumeName>Restore LUN - DAG 2 (RL)</VolumeName>
+            <Disk>900GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>Non-RAID</RAIDLevel>
+            <DiskQty>2</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+        </DAS>
+        <RoleName>Mailbox (log and database combined) server - Site 1 - DAG 2</RoleName>
+        <ServerName Qty="2" Height="3" Power="" Weight="">Synergy 480 Gen10 Server</ServerName>
+        <BladeEncGR BladeShareName="Synergy in Shared Frame(s) - Site 1 - CTO" PartNumber="797740-B21" BladesPerEnc="12">HPE Synergy 12000 CTO Frame 1xFLM 10x Fan</BladeEncGR>
+        <BladeEncGRQty>1</BladeEncGRQty>
+        <Processor>2 x Synergy 480 Gen10 Server 1P</Processor>
+        <ProcessorDetails>Intel  6 - Core 1.7GHz / 11MB Cache
+                                </ProcessorDetails>
+        <Memory>64 GB  RAM
+                                </Memory>
+        <NSSShared>
+        </NSSShared>
+        <Storage>1,629 GB Storage
+                                    </Storage>
+        <NICs>
+          <NICHeader>NIC Details (2 - Ports) </NICHeader>
+          <NIC>1 x HPE Synergy 3820C 10/20Gb CNA</NIC>
+        </NICs>
+      </Role>
+      <Role Site="" ParentSite="" SharedRoles="" SiteName="Site 1" DisplayName="" BranchSitesWithoutHardware="" RoleSubNode="" SiteSubNode="">
+        <SAN>
+          <SAN>true</SAN>
+          <PerfData>false</PerfData>
+        </SAN>
+        <DAS>
+          <TableData>
+            <VolumeName>System / Page File - DAG 1 (SPF)</VolumeName>
+            <Disk>300GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>6</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+          </TableData>
+          <TableData>
+            <VolumeName>Transaction Logs/Databases - DAG 1 (TLDB)</VolumeName>
+            <Disk>1.8TB 12G SAS 10K 2.5in SC 512e HDD</Disk>
+            <RAIDLevel>Non-RAID</RAIDLevel>
+            <DiskQty>36</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+          <TableData>
+            <VolumeName>Restore LUN - DAG 1 (RL)</VolumeName>
+            <Disk>1.8TB 12G SAS 10K 2.5in SC 512e HDD</Disk>
+            <RAIDLevel>Non-RAID</RAIDLevel>
+            <DiskQty>3</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+        </DAS>
+        <RoleName>Mailbox (log and database combined) server - Site 1 - DAG 1</RoleName>
+        <ServerName Qty="3" Height="3" Power="" Weight="">Synergy 480 Gen10 Server</ServerName>
+        <BladeEncGR BladeShareName="Synergy in Shared Frame(s) - Site 1 - CTO" PartNumber="797740-B21" BladesPerEnc="12">HPE Synergy 12000 CTO Frame 1xFLM 10x Fan</BladeEncGR>
+        <BladeEncGRQty>1</BladeEncGRQty>
+        <Processor>3 x Synergy 480 Gen10 Server 1P</Processor>
+        <ProcessorDetails>Intel Deca  Core
+                                      2.2GHz / 13.75MB Cache
+                                </ProcessorDetails>
+        <Memory>128 GB  RAM
+                                </Memory>
+        <NSSShared>
+        </NSSShared>
+        <Storage>15,052 GB Storage
+                                    </Storage>
+        <NICs>
+          <NICHeader>NIC Details (2 - Ports) </NICHeader>
+          <NIC>1 x HPE Synergy 3820C 10/20Gb CNA</NIC>
+        </NICs>
+      </Role>
+      <Role Site="" ParentSite="" SharedRoles="" SiteName="Site 2" DisplayName="" BranchSitesWithoutHardware="" RoleSubNode="" SiteSubNode="">
+        <SAN>
+          <SAN>true</SAN>
+          <PerfData>false</PerfData>
+        </SAN>
+        <DAS>
+          <TableData>
+            <VolumeName>System / Page File (SPF)</VolumeName>
+            <Disk>300GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>2</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+          </TableData>
+          <TableData>
+            <VolumeName>Transaction Logs (TL)</VolumeName>
+            <Disk>600GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>2</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+          <TableData>
+            <VolumeName>Databases (DB)</VolumeName>
+            <Disk>600GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>2</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+          <TableData>
+            <VolumeName>Restore LUN (RL)</VolumeName>
+            <Disk>600GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID0</RAIDLevel>
+            <DiskQty>1</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+        </DAS>
+        <RoleName>Mailbox (log and database isolated) server - Site 2 - No DAG</RoleName>
+        <ServerName Qty="1" Height="3" Power="" Weight="">Synergy 480 Gen10 Server</ServerName>
+        <BladeEncGR BladeShareName="Synergy in Shared Frame(s) - Site 2 - CTO" PartNumber="797740-B21" BladesPerEnc="12">HPE Synergy 12000 CTO Frame 1xFLM 10x Fan</BladeEncGR>
+        <BladeEncGRQty>1</BladeEncGRQty>
+        <Processor>1 x Synergy 480 Gen10 Server 1P</Processor>
+        <ProcessorDetails>Intel  6 - Core 1.7GHz / 11MB Cache
+                                </ProcessorDetails>
+        <Memory>64 GB  RAM
+                                </Memory>
+        <NSSShared>
+        </NSSShared>
+        <Storage>191 GB Storage
+                                    </Storage>
+        <NICs>
+          <NICHeader>NIC Details (2 - Ports) </NICHeader>
+          <NIC>1 x HPE Synergy 3820C 10/20Gb CNA</NIC>
+        </NICs>
+      </Role>
+      <Role Site="" ParentSite="" SharedRoles="" SiteName="Site 2" DisplayName="" BranchSitesWithoutHardware="" RoleSubNode="" SiteSubNode="">
+        <SAN>
+          <SAN>true</SAN>
+          <PerfData>false</PerfData>
+        </SAN>
+        <DAS>
+          <TableData>
+            <VolumeName>System / Page File - DAG 2 (SPF)</VolumeName>
+            <Disk>300GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>4</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+          </TableData>
+          <TableData>
+            <VolumeName>Transaction Logs/Databases - DAG 2 (TLDB)</VolumeName>
+            <Disk>900GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>Non-RAID</RAIDLevel>
+            <DiskQty>12</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+          <TableData>
+            <VolumeName>Restore LUN - DAG 2 (RL)</VolumeName>
+            <Disk>900GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>Non-RAID</RAIDLevel>
+            <DiskQty>2</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+        </DAS>
+        <RoleName>Mailbox (log and database combined) server - Site 2 - DAG 2</RoleName>
+        <ServerName Qty="2" Height="3" Power="" Weight="">Synergy 480 Gen10 Server</ServerName>
+        <BladeEncGR BladeShareName="Synergy in Shared Frame(s) - Site 2 - CTO" PartNumber="797740-B21" BladesPerEnc="12">HPE Synergy 12000 CTO Frame 1xFLM 10x Fan</BladeEncGR>
+        <BladeEncGRQty>1</BladeEncGRQty>
+        <Processor>2 x Synergy 480 Gen10 Server 1P</Processor>
+        <ProcessorDetails>Intel  6 - Core 1.7GHz / 11MB Cache
+                                </ProcessorDetails>
+        <Memory>64 GB  RAM
+                                </Memory>
+        <NSSShared>
+        </NSSShared>
+        <Storage>1,629 GB Storage
+                                    </Storage>
+        <NICs>
+          <NICHeader>NIC Details (2 - Ports) </NICHeader>
+          <NIC>1 x HPE Synergy 3820C 10/20Gb CNA</NIC>
+        </NICs>
+      </Role>
+      <Role Site="" ParentSite="" SharedRoles="" SiteName="Site 2" DisplayName="" BranchSitesWithoutHardware="" RoleSubNode="" SiteSubNode="">
+        <SAN>
+          <SAN>true</SAN>
+          <PerfData>false</PerfData>
+        </SAN>
+        <DAS>
+          <TableData>
+            <VolumeName>System / Page File - DAG 1 (SPF)</VolumeName>
+            <Disk>300GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>6</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+          </TableData>
+          <TableData>
+            <VolumeName>Transaction Logs/Databases - DAG 1 (TLDB)</VolumeName>
+            <Disk>1.8TB 12G SAS 10K 2.5in SC 512e HDD</Disk>
+            <RAIDLevel>Non-RAID</RAIDLevel>
+            <DiskQty>36</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+          <TableData>
+            <VolumeName>Restore LUN - DAG 1 (RL)</VolumeName>
+            <Disk>1.8TB 12G SAS 10K 2.5in SC 512e HDD</Disk>
+            <RAIDLevel>Non-RAID</RAIDLevel>
+            <DiskQty>3</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+        </DAS>
+        <RoleName>Mailbox (log and database combined) server - Site 2 - DAG 1</RoleName>
+        <ServerName Qty="3" Height="3" Power="" Weight="">Synergy 480 Gen10 Server</ServerName>
+        <BladeEncGR BladeShareName="Synergy in Shared Frame(s) - Site 2 - CTO" PartNumber="797740-B21" BladesPerEnc="12">HPE Synergy 12000 CTO Frame 1xFLM 10x Fan</BladeEncGR>
+        <BladeEncGRQty>1</BladeEncGRQty>
+        <Processor>3 x Synergy 480 Gen10 Server 1P</Processor>
+        <ProcessorDetails>Intel Deca  Core
+                                      2.2GHz / 13.75MB Cache
+                                </ProcessorDetails>
+        <Memory>128 GB  RAM
+                                </Memory>
+        <NSSShared>
+        </NSSShared>
+        <Storage>15,052 GB Storage
+                                    </Storage>
+        <NICs>
+          <NICHeader>NIC Details (2 - Ports) </NICHeader>
+          <NIC>1 x HPE Synergy 3820C 10/20Gb CNA</NIC>
+        </NICs>
+      </Role>
+      <Role Site="" ParentSite="" SharedRoles="" SiteName="Site 3" DisplayName="" BranchSitesWithoutHardware="" RoleSubNode="" SiteSubNode="">
+        <SAN>
+          <SAN>true</SAN>
+          <PerfData>false</PerfData>
+        </SAN>
+        <DAS>
+          <TableData>
+            <VolumeName>System / Page File (SPF)</VolumeName>
+            <Disk>300GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>2</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+          </TableData>
+          <TableData>
+            <VolumeName>Transaction Logs (TL)</VolumeName>
+            <Disk>600GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>2</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+          <TableData>
+            <VolumeName>Databases (DB)</VolumeName>
+            <Disk>600GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>2</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+          <TableData>
+            <VolumeName>Restore LUN (RL)</VolumeName>
+            <Disk>600GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID0</RAIDLevel>
+            <DiskQty>1</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+        </DAS>
+        <RoleName>Mailbox (log and database isolated) server - Site 3 - No DAG</RoleName>
+        <ServerName Qty="1" Height="3" Power="" Weight="">Synergy 480 Gen10 Server</ServerName>
+        <BladeEncGR BladeShareName="Synergy in Shared Frame(s) - Site 3 - CTO" PartNumber="797740-B21" BladesPerEnc="12">HPE Synergy 12000 CTO Frame 1xFLM 10x Fan</BladeEncGR>
+        <BladeEncGRQty>1</BladeEncGRQty>
+        <Processor>1 x Synergy 480 Gen10 Server 1P</Processor>
+        <ProcessorDetails>Intel  6 - Core 1.7GHz / 11MB Cache
+                                </ProcessorDetails>
+        <Memory>64 GB  RAM
+                                </Memory>
+        <NSSShared>
+        </NSSShared>
+        <Storage>158 GB Storage
+                                    </Storage>
+        <NICs>
+          <NICHeader>NIC Details (2 - Ports) </NICHeader>
+          <NIC>1 x HPE Synergy 3820C 10/20Gb CNA</NIC>
+        </NICs>
+      </Role>
+      <Role Site="" ParentSite="" SharedRoles="" SiteName="Site 3" DisplayName="" BranchSitesWithoutHardware="" RoleSubNode="" SiteSubNode="">
+        <SAN>
+          <SAN>true</SAN>
+          <PerfData>false</PerfData>
+        </SAN>
+        <DAS>
+          <TableData>
+            <VolumeName>System / Page File - DAG 2 (SPF)</VolumeName>
+            <Disk>300GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>4</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+          </TableData>
+          <TableData>
+            <VolumeName>Transaction Logs/Databases - DAG 2 (TLDB)</VolumeName>
+            <Disk>900GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>Non-RAID</RAIDLevel>
+            <DiskQty>12</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+          <TableData>
+            <VolumeName>Restore LUN - DAG 2 (RL)</VolumeName>
+            <Disk>900GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>Non-RAID</RAIDLevel>
+            <DiskQty>2</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+        </DAS>
+        <RoleName>Mailbox (log and database combined) server - Site 3 - DAG 2</RoleName>
+        <ServerName Qty="2" Height="3" Power="" Weight="">Synergy 480 Gen10 Server</ServerName>
+        <BladeEncGR BladeShareName="Synergy in Shared Frame(s) - Site 3 - CTO" PartNumber="797740-B21" BladesPerEnc="12">HPE Synergy 12000 CTO Frame 1xFLM 10x Fan</BladeEncGR>
+        <BladeEncGRQty>1</BladeEncGRQty>
+        <Processor>2 x Synergy 480 Gen10 Server 1P</Processor>
+        <ProcessorDetails>Intel  6 - Core 1.7GHz / 11MB Cache
+                                </ProcessorDetails>
+        <Memory>64 GB  RAM
+                                </Memory>
+        <NSSShared>
+        </NSSShared>
+        <Storage>1,629 GB Storage
+                                    </Storage>
+        <NICs>
+          <NICHeader>NIC Details (2 - Ports) </NICHeader>
+          <NIC>1 x HPE Synergy 3820C 10/20Gb CNA</NIC>
+        </NICs>
+      </Role>
+      <Role Site="" ParentSite="" SharedRoles="" SiteName="Site 3" DisplayName="" BranchSitesWithoutHardware="" RoleSubNode="" SiteSubNode="">
+        <SAN>
+          <SAN>true</SAN>
+          <PerfData>false</PerfData>
+        </SAN>
+        <DAS>
+          <TableData>
+            <VolumeName>System / Page File - DAG 1 (SPF)</VolumeName>
+            <Disk>300GB 12G SAS 10K 2.5in SC ENT HDD</Disk>
+            <RAIDLevel>RAID10</RAIDLevel>
+            <DiskQty>6</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+          </TableData>
+          <TableData>
+            <VolumeName>Transaction Logs/Databases - DAG 1 (TLDB)</VolumeName>
+            <Disk>1.8TB 12G SAS 10K 2.5in SC 512e HDD</Disk>
+            <RAIDLevel>Non-RAID</RAIDLevel>
+            <DiskQty>36</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+          <TableData>
+            <VolumeName>Restore LUN - DAG 1 (RL)</VolumeName>
+            <Disk>1.8TB 12G SAS 10K 2.5in SC 512e HDD</Disk>
+            <RAIDLevel>Non-RAID</RAIDLevel>
+            <DiskQty>3</DiskQty>
+            <OnlineSpare>0</OnlineSpare>
+            <ArrayType>D3940</ArrayType>
+            <DisplayPerServer>true</DisplayPerServer>
+          </TableData>
+        </DAS>
+        <RoleName>Mailbox (log and database combined) server - Site 3 - DAG 1</RoleName>
+        <ServerName Qty="3" Height="3" Power="" Weight="">Synergy 480 Gen10 Server</ServerName>
+        <BladeEncGR BladeShareName="Synergy in Shared Frame(s) - Site 3 - CTO" PartNumber="797740-B21" BladesPerEnc="12">HPE Synergy 12000 CTO Frame 1xFLM 10x Fan</BladeEncGR>
+        <BladeEncGRQty>1</BladeEncGRQty>
+        <Processor>3 x Synergy 480 Gen10 Server 1P</Processor>
+        <ProcessorDetails>Intel Deca  Core
+                                      2.2GHz / 13.75MB Cache
+                                </ProcessorDetails>
+        <Memory>128 GB  RAM
+                                </Memory>
+        <NSSShared>
+        </NSSShared>
+        <Storage>15,052 GB Storage
+                                    </Storage>
+        <NICs>
+          <NICHeader>NIC Details (2 - Ports) </NICHeader>
+          <NIC>1 x HPE Synergy 3820C 10/20Gb CNA</NIC>
+        </NICs>
+      </Role>
+      <BladeEncShareNameGR BladeEncGRShareQty="2" Description="HPE Synergy 12000 CTO Frame 1xFLM 10x Fan">Synergy in Shared Frame(s) - Site 1 - CTO</BladeEncShareNameGR>
+      <BladeEncShareNameGR BladeEncGRShareQty="2" Description="HPE Synergy 12000 CTO Frame 1xFLM 10x Fan">Synergy in Shared Frame(s) - Site 2 - CTO</BladeEncShareNameGR>
+      <BladeEncShareNameGR BladeEncGRShareQty="2" Description="HPE Synergy 12000 CTO Frame 1xFLM 10x Fan">Synergy in Shared Frame(s) - Site 3 - CTO</BladeEncShareNameGR>
+    </Roles>
+  </Solution>
+</Solutions>

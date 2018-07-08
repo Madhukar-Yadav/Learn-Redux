@@ -1,0 +1,1604 @@
+{
+  "SolutionProfiles": [
+    {
+      "@Name": "Recommended",
+      "ReasoningText": "For maximum availability and performance, this solution features maximum redundancy and performance headroom in a single server.",
+      "SystemModel": "1",
+      "SupportedModels": "121",
+      "SupportedBuyingModels": "3",
+      "ConfigurationType": "1",
+      "MemoryConfigType": "1",
+      "RibOption": "1",
+      "TapeOption": "2",
+      "TapeFailOption": "1",
+      "NicOption": "1",
+      "AccOption": "1",
+      "StorageOption": "1",
+      "SWDDASStorageOption": "1",
+      "ReservedSlots": "0",
+      "SortSol": "Server",
+      "RedCoolingFans": "1",
+      "RedPowerSupplies": "2",
+      "FabricAvailability": "Normal",
+      "PMP": "1",
+      "OnlineSpare": [
+        {
+          "@Name": "System / Page File",
+          "#text": "0"
+        },
+        {
+          "@Name": "Transaction Logs/Databases",
+          "#text": "0"
+        },
+        {
+          "@Name": "Transaction Logs",
+          "#text": "0"
+        },
+        {
+          "@Name": "Databases",
+          "#text": "0"
+        },
+        {
+          "@Name": "Restore LUN",
+          "#text": "0"
+        },
+        {
+          "@Name": "Backup",
+          "#text": "0"
+        },
+        {
+          "@Name": "System/Pagefile/TMP/Logs",
+          "#text": "0"
+        },
+        {
+          "@Name": "System/Page File/TMP",
+          "#text": "0"
+        },
+        {
+          "@Name": "Hub Queue Databases/Logs",
+          "#text": "0"
+        },
+        {
+          "@Name": "Transport Queue Database",
+          "#text": "0"
+        },
+        {
+          "@Name": "Edge Queue Databases/Logs",
+          "#text": "0"
+        }
+      ],
+      "SharedOnlineSpare": "1",
+      "ProtectionLevel": "0",
+      "BackupCategory": "Better",
+      "BackupMode": "1",
+      "SolutionProfileRoles": [
+        {
+          "@RoleName": "Mailbox (log and database isolated) server",
+          "ServerFamilies": [
+            "Synergy 480 Gen9 Server",
+            "Synergy 480 Gen10 Server",
+            "Synergy 620 Gen9 Server",
+            "HP Apollo 4200 Gen9 Server",
+            "HP Apollo 4500 System",
+            "HPE Apollo 4500 Gen10 System",
+            "ProLiant BL460c Gen9 Server",
+            "ProLiant BL460c Gen10 Server",
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL360 Gen9",
+            "ProLiant DL360 Gen10",
+            "ProLiant DL380 Gen9",
+            "ProLiant DL380 Gen10",
+            "ProLiant DL385 Gen10",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9",
+            "ProLiant ML350 Gen9",
+            "ProLiant ML350 Gen10"
+          ],
+          "ServerFamiliesExcludedFromInitialSize": [
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9"
+          ]
+        },
+        {
+          "@RoleName": "Mailbox (log and database combined) server",
+          "ServerFamilies": [
+            "Synergy 480 Gen9 Server",
+            "Synergy 480 Gen10 Server",
+            "Synergy 620 Gen9 Server",
+            "HP Apollo 4200 Gen9 Server",
+            "HP Apollo 4500 System",
+            "HPE Apollo 4500 Gen10 System",
+            "ProLiant BL460c Gen9 Server",
+            "ProLiant BL460c Gen10 Server",
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL360 Gen9",
+            "ProLiant DL360 Gen10",
+            "ProLiant DL380 Gen9",
+            "ProLiant DL380 Gen10",
+            "ProLiant DL385 Gen10",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9",
+            "ProLiant ML350 Gen9",
+            "ProLiant ML350 Gen10"
+          ],
+          "ServerFamiliesExcludedFromInitialSize": [
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9"
+          ]
+        },
+        {
+          "@RoleName": "Physical Host server",
+          "ServerFamilies": [
+            "Synergy 480 Gen9 Server",
+            "Synergy 480 Gen10 Server",
+            "Synergy 620 Gen9 Server",
+            "HP Apollo 4200 Gen9 Server",
+            "HP Apollo 4500 System",
+            "HPE Apollo 4500 Gen10 System",
+            "ProLiant BL460c Gen9 Server",
+            "ProLiant BL460c Gen10 Server",
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL360 Gen9",
+            "ProLiant DL360 Gen10",
+            "ProLiant DL380 Gen9",
+            "ProLiant DL380 Gen10",
+            "ProLiant DL385 Gen10",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9",
+            "ProLiant ML350 Gen9",
+            "ProLiant ML350 Gen10"
+          ],
+          "ServerFamiliesExcludedFromInitialSize": [
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9"
+          ]
+        },
+        {
+          "@RoleName": "Other Role server",
+          "ServerFamilies": [
+            "Synergy 480 Gen9 Server",
+            "Synergy 480 Gen10 Server",
+            "Synergy 620 Gen9 Server",
+            "HP Apollo 4200 Gen9 Server",
+            "HP Apollo 4500 System",
+            "HPE Apollo 4500 Gen10 System",
+            "ProLiant BL460c Gen9 Server",
+            "ProLiant BL460c Gen10 Server",
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL360 Gen9",
+            "ProLiant DL360 Gen10",
+            "ProLiant DL380 Gen9",
+            "ProLiant DL380 Gen10",
+            "ProLiant DL385 Gen10",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9",
+            "ProLiant ML350 Gen9",
+            "ProLiant ML350 Gen10"
+          ],
+          "ServerFamiliesExcludedFromInitialSize": [
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9"
+          ]
+        },
+        {
+          "@RoleName": "Edge Transport server",
+          "ServerFamilies": [
+            "Synergy 480 Gen9 Server",
+            "Synergy 480 Gen10 Server",
+            "Synergy 620 Gen9 Server",
+            "HP Apollo 4200 Gen9 Server",
+            "HP Apollo 4500 System",
+            "HPE Apollo 4500 Gen10 System",
+            "ProLiant BL460c Gen9 Server",
+            "ProLiant BL460c Gen10 Server",
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL360 Gen9",
+            "ProLiant DL360 Gen10",
+            "ProLiant DL380 Gen9",
+            "ProLiant DL380 Gen10",
+            "ProLiant DL385 Gen10",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9",
+            "ProLiant ML350 Gen9",
+            "ProLiant ML350 Gen10"
+          ],
+          "ServerFamiliesExcludedFromInitialSize": [
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9"
+          ]
+        }
+      ]
+    },
+    {
+      "@Name": "ConvergedSystem",
+      "SolutionType": "ConvergedSystem",
+      "ReasoningText": "For maximum availability and performance, this solution features maximum redundancy and performance headroom in a single server.",
+      "SystemModel": "1",
+      "SupportedModels": "121",
+      "SupportedBuyingModels": "3",
+      "ConfigurationType": "1",
+      "MemoryConfigType": "1",
+      "RibOption": "1",
+      "TapeOption": "2",
+      "TapeFailOption": "1",
+      "NicOption": "1",
+      "AccOption": "1",
+      "StorageOption": "1",
+      "SWDDASStorageOption": "1",
+      "ReservedSlots": "0",
+      "SortSol": "Server",
+      "RedCoolingFans": "1",
+      "RedPowerSupplies": "2",
+      "FabricAvailability": "Normal",
+      "PMP": "1",
+      "OnlineSpare": [
+        {
+          "@Name": "System / Page File",
+          "#text": "0"
+        },
+        {
+          "@Name": "Transaction Logs/Databases",
+          "#text": "0"
+        },
+        {
+          "@Name": "Transaction Logs",
+          "#text": "0"
+        },
+        {
+          "@Name": "Databases",
+          "#text": "0"
+        },
+        {
+          "@Name": "Restore LUN",
+          "#text": "0"
+        },
+        {
+          "@Name": "Backup",
+          "#text": "0"
+        },
+        {
+          "@Name": "System/Pagefile/TMP/Logs",
+          "#text": "0"
+        },
+        {
+          "@Name": "System/Page File/TMP",
+          "#text": "0"
+        },
+        {
+          "@Name": "Hub Queue Databases/Logs",
+          "#text": "0"
+        },
+        {
+          "@Name": "Transport Queue Database",
+          "#text": "0"
+        },
+        {
+          "@Name": "Edge Queue Databases/Logs",
+          "#text": "0"
+        }
+      ],
+      "SharedOnlineSpare": "1",
+      "ProtectionLevel": "0",
+      "BackupCategory": "Better",
+      "BackupMode": "1",
+      "SolutionProfileRoles": [
+        {
+          "@RoleName": "Mailbox (log and database isolated) server",
+          "ServerFamilies": [
+            "Synergy 480 Gen9 Server",
+            "Synergy 480 Gen10 Server",
+            "Synergy 480 Gen10 Server",
+            "HP Apollo 4200 Gen9 Server",
+            "HP Apollo 4500 System",
+            "HPE Apollo 4500 Gen10 System",
+            "ProLiant BL460c Gen9 Server",
+            "ProLiant BL460c Gen10 Server",
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL360 Gen9",
+            "ProLiant DL360 Gen10",
+            "ProLiant DL380 Gen9",
+            "ProLiant DL380 Gen10",
+            "ProLiant DL385 Gen10",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9",
+            "ProLiant ML350 Gen9",
+            "ProLiant ML350 Gen10"
+          ],
+          "ServerFamiliesExcludedFromInitialSize": [
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9"
+          ]
+        },
+        {
+          "@RoleName": "Mailbox (log and database combined) server",
+          "ServerFamilies": [
+            "Synergy 480 Gen9 Server",
+            "Synergy 480 Gen10 Server",
+            "HP Apollo 4200 Gen9 Server",
+            "HP Apollo 4500 System",
+            "HPE Apollo 4500 Gen10 System",
+            "ProLiant BL460c Gen9 Server",
+            "ProLiant BL460c Gen10 Server",
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL360 Gen9",
+            "ProLiant DL360 Gen10",
+            "ProLiant DL380 Gen9",
+            "ProLiant DL380 Gen10",
+            "ProLiant DL385 Gen10",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9",
+            "ProLiant ML350 Gen9",
+            "ProLiant ML350 Gen10"
+          ],
+          "ServerFamiliesExcludedFromInitialSize": [
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9"
+          ]
+        },
+        {
+          "@RoleName": "Physical Host server",
+          "ServerFamilies": [
+            "Synergy 480 Gen9 Server",
+            "Synergy 480 Gen10 Server",
+            "HP Apollo 4200 Gen9 Server",
+            "HP Apollo 4500 System",
+            "HPE Apollo 4500 Gen10 System",
+            "ProLiant BL460c Gen9 Server",
+            "ProLiant BL460c Gen10 Server",
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL360 Gen9",
+            "ProLiant DL360 Gen10",
+            "ProLiant DL380 Gen9",
+            "ProLiant DL380 Gen10",
+            "ProLiant DL385 Gen10",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9",
+            "ProLiant ML350 Gen9",
+            "ProLiant ML350 Gen10"
+          ],
+          "ServerFamiliesExcludedFromInitialSize": [
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9"
+          ]
+        },
+        {
+          "@RoleName": "Other Role server",
+          "ServerFamilies": [
+            "Synergy 480 Gen9 Server",
+            "Synergy 480 Gen10 Server",
+            "HP Apollo 4200 Gen9 Server",
+            "HP Apollo 4500 System",
+            "HPE Apollo 4500 Gen10 System",
+            "ProLiant BL460c Gen9 Server",
+            "ProLiant BL460c Gen10 Server",
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL360 Gen9",
+            "ProLiant DL360 Gen10",
+            "ProLiant DL380 Gen9",
+            "ProLiant DL380 Gen10",
+            "ProLiant DL385 Gen10",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9",
+            "ProLiant ML350 Gen9",
+            "ProLiant ML350 Gen10"
+          ],
+          "ServerFamiliesExcludedFromInitialSize": [
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9"
+          ]
+        },
+        {
+          "@RoleName": "Edge Transport server",
+          "ServerFamilies": [
+            "Synergy 480 Gen9 Server",
+            "Synergy 480 Gen10 Server",
+            "HP Apollo 4200 Gen9 Server",
+            "HP Apollo 4500 System",
+            "HPE Apollo 4500 Gen10 System",
+            "ProLiant BL460c Gen9 Server",
+            "ProLiant BL460c Gen10 Server",
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL360 Gen9",
+            "ProLiant DL360 Gen10",
+            "ProLiant DL380 Gen9",
+            "ProLiant DL380 Gen10",
+            "ProLiant DL385 Gen10",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9",
+            "ProLiant ML350 Gen9",
+            "ProLiant ML350 Gen10"
+          ],
+          "ServerFamiliesExcludedFromInitialSize": [
+            "ProLiant BL660c Gen9 Server",
+            "ProLiant DL120 Gen9",
+            "ProLiant DL120 Gen10",
+            "ProLiant DL60 Gen9",
+            "ProLiant DL160 Gen9",
+            "ProLiant DL160 Gen10",
+            "ProLiant DL80 Gen9",
+            "ProLiant DL180 Gen9",
+            "ProLiant DL180 Gen10",
+            "ProLiant DL560 Gen9",
+            "ProLiant DL580 Gen9",
+            "ProLiant DL580 Gen10",
+            "ProLiant ML110 Gen9",
+            "ProLiant ML110 Gen10",
+            "ProLiant ML150 Gen9"
+          ]
+        }
+      ]
+    }
+  ],
+  "ServerFamilies": [
+    {
+      "@Name": "Synergy 480 Gen9 Server",
+      "MaxUsersExchange2016": "323232",
+      "MaxProcSpeed": "3500",
+      "MaxProcs": "2",
+      "Group": "2",
+      "MaxRAM": "3072",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "SY",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "2",
+        "@LFF": "0",
+        "#text": "2"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "2097152",
+        "@Slot2": "-1",
+        "@Slot3": "-1",
+        "#text": "3"
+      },
+      "Rating": {
+        "@SB": "2",
+        "@MM": "2",
+        "@Ent": "2"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "Synergy 480 Gen10 Server",
+      "MaxUsersExchange2016": "994560",
+      "MaxProcSpeed": "3600",
+      "MaxProcs": "2",
+      "Group": "1",
+      "MaxRAM": "1536",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "SY",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "2",
+        "@LFF": "0",
+        "#text": "2"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "4194304",
+        "@Slot2": "-1",
+        "@Slot3": "-1",
+        "#text": "3"
+      },
+      "Rating": {
+        "@SB": "1",
+        "@MM": "1",
+        "@Ent": "1"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "Synergy 620 Gen9 Server",
+      "MaxUsersExchange2016": "325008",
+      "MaxProcSpeed": "3200",
+      "MaxProcs": "2",
+      "Group": "2",
+      "MaxRAM": "3072",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "SY",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "2",
+        "@LFF": "0",
+        "#text": "2"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "2097152",
+        "@Slot2": "-1",
+        "@Slot3": "-1",
+        "#text": "3"
+      },
+      "Rating": {
+        "@SB": "2",
+        "@MM": "2",
+        "@Ent": "2"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "HP Apollo 4200 Gen9 Server",
+      "MaxUsersExchange2016": "313464",
+      "MaxProcSpeed": "3500",
+      "MaxProcs": "2",
+      "Group": "1",
+      "MaxRAM": "512",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "XL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "50",
+        "@LFF": "28",
+        "#text": "50"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "-1",
+        "@Slot2": "393216",
+        "@Slot3": "393216",
+        "@Slot4": "393216",
+        "@Slot5": "393216",
+        "@Slot6": "393216",
+        "@Slot7": "393216",
+        "#text": "7"
+      },
+      "Rating": {
+        "@SB": "1",
+        "@MM": "2",
+        "@Ent": "3"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "HP Apollo 4500 System",
+      "MaxUsersExchange2016": "313464",
+      "MaxProcSpeed": "2600",
+      "MaxProcs": "2",
+      "Group": "1",
+      "MaxRAM": "1024",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "XL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "2",
+        "@LFF": "0",
+        "#text": "2"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "-1",
+        "@Slot2": "1572864",
+        "@Slot3": "1572864",
+        "@Slot4": "1572864",
+        "#text": "4"
+      },
+      "Rating": {
+        "@SB": "1",
+        "@MM": "2",
+        "@Ent": "3"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "HPE Apollo 4500 Gen10 System",
+      "MaxUsersExchange2016": "403152",
+      "MaxProcSpeed": "3600",
+      "MaxProcs": "2",
+      "Group": "1",
+      "MaxRAM": "1024",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "XL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "2",
+        "@LFF": "0",
+        "#text": "2"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "-1",
+        "@Slot2": "100663296",
+        "@Slot3": "100663296",
+        "@Slot4": "100663296",
+        "#text": "4"
+      },
+      "Rating": {
+        "@SB": "1",
+        "@MM": "2",
+        "@Ent": "3"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant BL460c Gen9 Server",
+      "MaxUsersExchange2016": "313464",
+      "MaxProcSpeed": "3500",
+      "MaxProcs": "2",
+      "Group": "2",
+      "MaxRAM": "2048",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "BL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "2",
+        "@LFF": "0",
+        "#text": "2"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "33792",
+        "@Slot2": "-1",
+        "#text": "2"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "3",
+        "@Ent": "2"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant BL460c Gen10 Server",
+      "MaxUsersExchange2016": "403152",
+      "MaxProcSpeed": "3600",
+      "MaxProcs": "2",
+      "Group": "1",
+      "MaxRAM": "1024",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "BL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "2",
+        "@LFF": "0",
+        "#text": "2"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "33792",
+        "@Slot2": "-1",
+        "#text": "2"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "3",
+        "@Ent": "1"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant BL660c Gen9 Server",
+      "MaxUsersExchange2016": "488400",
+      "MaxProcSpeed": "2900",
+      "MaxProcs": "4",
+      "Group": "2",
+      "MaxRAM": "4096",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "BL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "4",
+        "@LFF": "0",
+        "#text": "4"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "33792",
+        "@Slot2": "-1",
+        "@Slot3": "-1",
+        "#text": "3"
+      },
+      "Rating": {
+        "@SB": "4",
+        "@MM": "4",
+        "@Ent": "2"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL120 Gen9",
+      "MaxUsersExchange2016": "62693",
+      "MaxProcSpeed": "2600",
+      "MaxProcs": "1",
+      "Group": "2",
+      "MaxRAM": "256",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "False",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "8",
+        "@LFF": "4",
+        "#text": "8"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "393216",
+        "@Slot2": "393216",
+        "@Slot3": "-1",
+        "#text": "3"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "2",
+        "@Ent": "5"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL120 Gen10",
+      "MaxUsersExchange2016": "109402",
+      "MaxProcSpeed": "3600",
+      "MaxProcs": "1",
+      "Group": "2",
+      "MaxRAM": "512",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "False",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "10",
+        "@LFF": "4",
+        "#text": "10"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "25165824",
+        "@Slot2": "25165824",
+        "@Slot3": "-1",
+        "#text": "3"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "2",
+        "@Ent": "5"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL60 Gen9",
+      "MaxUsersExchange2016": "202464",
+      "MaxProcSpeed": "2600",
+      "MaxProcs": "2",
+      "Group": "2",
+      "MaxRAM": "256",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "0",
+        "@LFF": "4",
+        "#text": "4"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "131072",
+        "@Slot2": "131072",
+        "@Slot3": "-1",
+        "#text": "3"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "2",
+        "@Ent": "5"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL160 Gen9",
+      "MaxUsersExchange2016": "104784",
+      "MaxProcSpeed": "2600",
+      "MaxProcs": "2",
+      "Group": "2",
+      "MaxRAM": "512",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "8",
+        "@LFF": "4",
+        "#text": "8"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "393216",
+        "@Slot2": "393216",
+        "@Slot3": "393216",
+        "@Slot4": "393216",
+        "@Slot5": "393216",
+        "#text": "5"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "2",
+        "@Ent": "5"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL160 Gen10",
+      "MaxUsersExchange2016": "161261",
+      "MaxProcSpeed": "3600",
+      "MaxProcs": "2",
+      "Group": "2",
+      "MaxRAM": "1024",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "10",
+        "@LFF": "4",
+        "#text": "10"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "25165824",
+        "@Slot2": "25165824",
+        "@Slot3": "25165824",
+        "#text": "3"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "2",
+        "@Ent": "5"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL80 Gen9",
+      "MaxUsersExchange2016": "202464",
+      "MaxProcSpeed": "2600",
+      "MaxProcs": "2",
+      "Group": "2",
+      "MaxRAM": "256",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "0",
+        "@LFF": "8",
+        "#text": "8"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "131072",
+        "@Slot2": "131072",
+        "@Slot3": "131072",
+        "@Slot4": "131072",
+        "@Slot5": "131072",
+        "@Slot6": "-1",
+        "#text": "6"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "2",
+        "@Ent": "5"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL180 Gen9",
+      "MaxUsersExchange2016": "104784",
+      "MaxProcSpeed": "2600",
+      "MaxProcs": "2",
+      "Group": "2",
+      "MaxRAM": "512",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "8",
+        "@LFF": "12",
+        "#text": "12"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "393216",
+        "@Slot2": "393216",
+        "@Slot3": "393216",
+        "@Slot4": "393216",
+        "@Slot5": "-1",
+        "@Slot6": "-1",
+        "#text": "6"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "2",
+        "@Ent": "5"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL180 Gen10",
+      "MaxUsersExchange2016": "161261",
+      "MaxProcSpeed": "3600",
+      "MaxProcs": "2",
+      "Group": "2",
+      "MaxRAM": "1024",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "24",
+        "@LFF": "12",
+        "#text": "24"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "25165824",
+        "@Slot2": "25165824",
+        "@Slot3": "25165824",
+        "@Slot4": "25165824",
+        "@Slot5": "-1",
+        "@Slot6": "-1",
+        "#text": "6"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "2",
+        "@Ent": "5"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL360 Gen9",
+      "MaxUsersExchange2016": "323232",
+      "MaxProcSpeed": "3500",
+      "MaxProcs": "2",
+      "Group": "2",
+      "MaxRAM": "768",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "10",
+        "@LFF": "4",
+        "#text": "10"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "393216",
+        "@Slot2": "393216",
+        "@Slot3": "-1",
+        "#text": "3"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "2",
+        "@Ent": "2"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL360 Gen10",
+      "MaxUsersExchange2016": "994560",
+      "MaxProcSpeed": "3600",
+      "MaxProcs": "2",
+      "Group": "1",
+      "MaxRAM": "1536",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "16",
+        "@LFF": "4",
+        "#text": "16"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "25165824",
+        "@Slot2": "-1",
+        "#text": "2"
+      },
+      "Rating": {
+        "@SB": "2",
+        "@MM": "1",
+        "@Ent": "1"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL380 Gen9",
+      "MaxUsersExchange2016": "323232",
+      "MaxProcSpeed": "3500",
+      "MaxProcs": "2",
+      "Group": "2",
+      "MaxRAM": "768",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "26",
+        "@LFF": "15",
+        "#text": "26"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "393216",
+        "@Slot2": "393216",
+        "@Slot3": "393216",
+        "@Slot4": "393216",
+        "@Slot5": "-1",
+        "#text": "5"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "2",
+        "@Ent": "2"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL380 Gen10",
+      "MaxUsersExchange2016": "994560",
+      "MaxProcSpeed": "3900",
+      "MaxProcs": "2",
+      "Group": "1",
+      "MaxRAM": "3072",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "28",
+        "@LFF": "16",
+        "#text": "28"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "25165824",
+        "@Slot2": "25165824",
+        "@Slot3": "-1",
+        "#text": "3"
+      },
+      "Rating": {
+        "@SB": "2",
+        "@MM": "1",
+        "@Ent": "1"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL385 Gen10",
+      "MaxUsersExchange2016": "426240",
+      "MaxProcSpeed": "2400",
+      "MaxProcs": "2",
+      "Group": "1",
+      "MaxRAM": "4096",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "AMD",
+      "InternalDrives": {
+        "@SFF": "26",
+        "@LFF": "16",
+        "#text": "26"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "25165824",
+        "@Slot2": "25165824",
+        "@Slot3": "25165824",
+        "#text": "3"
+      },
+      "Rating": {
+        "@SB": "2",
+        "@MM": "1",
+        "@Ent": "1"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL560 Gen9",
+      "MaxUsersExchange2016": "488400",
+      "MaxProcSpeed": "2900",
+      "MaxProcs": "4",
+      "Group": "3",
+      "MaxRAM": "6144",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "24",
+        "@LFF": "0",
+        "#text": "24"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "393216",
+        "@Slot2": "393216",
+        "@Slot3": "393216",
+        "@Slot4": "393216",
+        "@Slot5": "393216",
+        "@Slot6": "393216",
+        "@Slot7": "393216",
+        "#text": "7"
+      },
+      "Rating": {
+        "@SB": "4",
+        "@MM": "3",
+        "@Ent": "1"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL580 Gen9",
+      "MaxUsersExchange2016": "650016",
+      "MaxProcSpeed": "3200",
+      "MaxProcs": "4",
+      "Group": "3",
+      "MaxRAM": "12288",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "10",
+        "@LFF": "0",
+        "#text": "10"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "131072",
+        "@Slot2": "131072",
+        "@Slot3": "131072",
+        "@Slot4": "131072",
+        "@Slot5": "131072",
+        "@Slot6": "131072",
+        "@Slot7": "131072",
+        "@Slot8": "131072",
+        "@Slot9": "131072",
+        "#text": "9"
+      },
+      "Rating": {
+        "@SB": "4",
+        "@MM": "3",
+        "@Ent": "1"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant DL580 Gen10",
+      "MaxUsersExchange2016": "1989120",
+      "MaxProcSpeed": "3600",
+      "MaxProcs": "4",
+      "Group": "3",
+      "MaxRAM": "3072",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "DL",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "48",
+        "@LFF": "0",
+        "#text": "48"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "8388608",
+        "@Slot2": "8388608",
+        "@Slot3": "8388608",
+        "@Slot4": "8388608",
+        "@Slot5": "8388608",
+        "@Slot6": "8388608",
+        "@Slot7": "8388608",
+        "@Slot8": "8388608",
+        "@Slot9": "8388608",
+        "@Slot10": "8388608",
+        "@Slot11": "8388608",
+        "@Slot12": "8388608",
+        "@Slot13": "8388608",
+        "@Slot14": "8388608",
+        "@Slot15": "8388608",
+        "@Slot16": "8388608",
+        "#text": "16"
+      },
+      "Rating": {
+        "@SB": "4",
+        "@MM": "3",
+        "@Ent": "1"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant ML110 Gen9",
+      "MaxUsersExchange2016": "40493",
+      "MaxProcSpeed": "3500",
+      "MaxProcs": "1",
+      "Group": "2",
+      "MaxRAM": "256",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "ML",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "16",
+        "@LFF": "8",
+        "#text": "16"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "131072",
+        "@Slot2": "131072",
+        "@Slot3": "131072",
+        "@Slot4": "131072",
+        "@Slot5": "-1",
+        "#text": "5"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "2",
+        "@Ent": "5"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant ML110 Gen10",
+      "MaxUsersExchange2016": "94696",
+      "MaxProcSpeed": "3600",
+      "MaxProcs": "1",
+      "Group": "2",
+      "MaxRAM": "192",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "ML",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "16",
+        "@LFF": "8",
+        "#text": "16"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "8388608",
+        "@Slot2": "8388608",
+        "@Slot3": "8388608",
+        "@Slot4": "8388608",
+        "@Slot5": "-1",
+        "#text": "5"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "2",
+        "@Ent": "5"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant ML150 Gen9",
+      "MaxUsersExchange2016": "104784",
+      "MaxProcSpeed": "2400",
+      "MaxProcs": "2",
+      "Group": "2",
+      "MaxRAM": "512",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "ML",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "16",
+        "@LFF": "8",
+        "#text": "16"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "131072",
+        "@Slot2": "131072",
+        "@Slot3": "131072",
+        "@Slot4": "131072",
+        "@Slot5": "131072",
+        "@Slot6": "-1",
+        "#text": "6"
+      },
+      "Rating": {
+        "@SB": "3",
+        "@MM": "2",
+        "@Ent": "5"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant ML350 Gen9",
+      "MaxUsersExchange2016": "313464",
+      "MaxProcSpeed": "3500",
+      "MaxProcs": "2",
+      "Group": "1",
+      "MaxRAM": "768",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "ML",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "24",
+        "@LFF": "24",
+        "#text": "24"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "393216",
+        "@Slot2": "393216",
+        "@Slot3": "393216",
+        "@Slot4": "393216",
+        "@Slot5": "393216",
+        "@Slot6": "393216",
+        "@Slot7": "393216",
+        "@Slot8": "393216",
+        "@Slot9": "393216",
+        "#text": "9"
+      },
+      "Rating": {
+        "@SB": "1",
+        "@MM": "2",
+        "@Ent": "3"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    },
+    {
+      "@Name": "ProLiant ML350 Gen10",
+      "MaxUsersExchange2016": "1094016",
+      "MaxProcSpeed": "3600",
+      "MaxProcs": "4",
+      "Group": "1",
+      "MaxRAM": "1536",
+      "HyperThreaded": "False",
+      "MemoryDependsOnProc": "True",
+      "SrvrModelOpt": "ML",
+      "CpuVendor": "Intel",
+      "InternalDrives": {
+        "@SFF": "16",
+        "@LFF": "8",
+        "#text": "16"
+      },
+      "ExpansionSlots": {
+        "@Slot1": "25165824",
+        "@Slot2": "25165824",
+        "@Slot3": "25165824",
+        "@Slot4": "25165824",
+        "@Slot5": "25165824",
+        "@Slot6": "25165824",
+        "@Slot7": "25165824",
+        "@Slot8": "25165824",
+        "#text": "8"
+      },
+      "Rating": {
+        "@SB": "1",
+        "@MM": "2",
+        "@Ent": "3"
+      },
+      "MSA2000saSupported": "True",
+      "LowPowerDIMMSupported": "True"
+    }
+  ]
+}

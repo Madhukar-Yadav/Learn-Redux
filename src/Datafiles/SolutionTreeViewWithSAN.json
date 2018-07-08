@@ -1,0 +1,97 @@
+{
+    "Solutions": {
+        "@PriceList": "4/1/2018 12:00:00 AM",
+        "@TreeView": "1",
+        "@ETSEVersion": "18.8.0",
+        "@Country": "United States",
+        "@Currency": "UD",
+        "Solution": {
+            "@ID": "1",
+            "@Customizable": "1",
+            "@FirstRole": "Mailbox (log and database combined) server - Site 1 - DAG 1",
+            "SolutionsArchitecture": "Server solution with selected platforms",
+            "ResoningText": "The configured server roles are based on the best-fit server platforms selected for each site.",
+            "SolProfile": {
+                "@ID": "1",
+                "#text": "Recommended"
+            },
+            "NoOfSolutionWithAsterisk": "0",
+            "SolPrice": "41,740",
+            "TotalPrice": "41,740",
+            "Roles": {
+                "@FirstRole": "Mailbox (log and database combined) server - Site 1 - DAG 1",
+                "Role": {
+                    "@Site": "",
+                    "@ParentSite": "",
+                    "@SharedRoles": "",
+                    "@SiteName": "Site 1",
+                    "@DisplayName": "",
+                    "@BranchSitesWithoutHardware": "",
+                    "@RoleSubNode": "",
+                    "@SiteSubNode": "",
+                    "SAN": {
+                        "SAN": "true",
+                        "PerfData": "false",
+                        "StorageBoxes": "4",
+                        "TableData": [
+                            {
+                                "VolumeName": "Transaction Logs/Databases - DAG 1",
+                                "Disk": "SV-3200 4TB SAS 7.2K LFF NL MDL",
+                                "RaidLevel": "RAID10",
+                                "DiskQty": "1",
+                                "ArrayType": "StoreVirtual-3200"
+                            },
+                            {
+                                "VolumeName": "Restore LUN - DAG 1",
+                                "Disk": "SV-3200 6TB SAS 7.2K LFF NL MDL",
+                                "RaidLevel": "RAID10",
+                                "DiskQty": "1",
+                                "ArrayType": "StoreVirtual-3200"
+                            },
+                            {
+                                "VolumeName": "Transaction Logs/Databases - DAG 1",
+                                "Disk": "SV-3200 4TB SAS 7.2K LFF NL MDL",
+                                "RaidLevel": "RAID10",
+                                "DiskQty": "1",
+                                "ArrayType": "StoreVirtual-3200"
+                            },
+                            {
+                                "VolumeName": "Restore LUN - DAG 1",
+                                "Disk": "SV-3200 6TB SAS 7.2K LFF NL MDL",
+                                "RaidLevel": "RAID10",
+                                "DiskQty": "1",
+                                "ArrayType": "StoreVirtual-3200"
+                            }
+                        ]
+                    },
+                    "DAS": {
+                        "TableData": {
+                            "VolumeName": "System / Page File - DAG 1 (SPF)",
+                            "Disk": "1.8TB SAS 10K 2.5in SC 512e DS HDD",
+                            "RAIDLevel": "RAID10",
+                            "DiskQty": "4",
+                            "OnlineSpare": "2"
+                        }
+                    },
+                    "RoleName": "Mailbox (log and database combined) server - Site 1 - DAG 1",
+                    "ServerName": {
+                    "@Qty": "2",
+                    "@Height": "5",
+                    "@Power": "",
+                    "@Weight": "",
+                    "#text": "ProLiant ML350 Gen9"
+                    },
+                    "Processor": "2 x ProLiant ML350 Gen9 1P",
+                    "ProcessorDetails": "Intel Deca  Core\n                                      1.8GHz / 25MB Cache",
+                    "Memory": "16 GB  RAM",
+                    "NSSShared": [],
+                    "Storage": "437 GB Storage",
+                    "NICs": {
+                        "NICHeader": "NIC Details (4 - Ports)",
+                        "NIC": "1 x HP 1Gb Ethernet 4-port 331i Adapter"
+                    }
+                }
+            }
+        }
+    }
+}
